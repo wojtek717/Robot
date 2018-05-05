@@ -15,7 +15,7 @@
 using namespace std;
 
 
-
+//GIT TEST COMMENT
 int main()
 {
     char Znak;
