@@ -90,10 +90,22 @@
 		<Unit filename="/home/wojciech/CLionProjects/Robot/GraphicObject.h">
 			<Option target="Robot"/>
 		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Robot.cpp">
+			<Option target="Robot"/>
+		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Robot.h">
+			<Option target="Robot"/>
+		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/SVector.h">
 			<Option target="Robot"/>
 		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/Vector2D.h">
+			<Option target="Robot"/>
+		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/VerticesCollection.cpp">
+			<Option target="Robot"/>
+		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/VerticesCollection.h">
 			<Option target="Robot"/>
 		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.cpp">

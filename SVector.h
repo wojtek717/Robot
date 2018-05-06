@@ -20,6 +20,12 @@ public:
         for (STyp &Wsp: _Wsp) Wsp = 0;
     }
 
+    SVector(int x, int y)
+    {
+        _Wsp[0] = x;
+        _Wsp[1] = y;
+    }
+
     STyp  operator [] (unsigned int Ind) const
     {
         return _Wsp[Ind];

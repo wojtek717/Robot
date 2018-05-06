@@ -7,23 +7,22 @@
 
 #include <iostream>
 #include "Vector2D.h"
+#include "VerticesCollection.h"
 
-class GraphicObject
+class GraphicObject : public VerticesCollection
 {
 private:
-    Vector2D targetLocation;
-    Vector2D arrVertex[7];
-
     Vector2D location;
+    double orientationAngle;
 
 public:
-    void InicjalizujKsztalt();
+    GraphicObject();
 
-    bool ZapiszDoPliku(const char* sNazwaPliku) const;
+    void setLocation(int x, int y);
+    Vector2D GetLocation();
 
-    bool ZapiszDoStrumienia(std::ostream& StrmWy) const;
-
-    void ZmienPolozenie(double x, double y);
+    void SetOrientationAngle(double angle);
+    double GetOrientationAngle();
 };
 
 

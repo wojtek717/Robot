@@ -150,6 +150,60 @@ GraphicObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/GraphicObject.cpp.s
 .PHONY : GraphicObject.cpp.s
 
+Robot.o: Robot.cpp.o
+
+.PHONY : Robot.o
+
+# target to build an object file
+Robot.cpp.o:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Robot.cpp.o
+.PHONY : Robot.cpp.o
+
+Robot.i: Robot.cpp.i
+
+.PHONY : Robot.i
+
+# target to preprocess a source file
+Robot.cpp.i:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Robot.cpp.i
+.PHONY : Robot.cpp.i
+
+Robot.s: Robot.cpp.s
+
+.PHONY : Robot.s
+
+# target to generate assembly for a file
+Robot.cpp.s:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Robot.cpp.s
+.PHONY : Robot.cpp.s
+
+VerticesCollection.o: VerticesCollection.cpp.o
+
+.PHONY : VerticesCollection.o
+
+# target to build an object file
+VerticesCollection.cpp.o:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/VerticesCollection.cpp.o
+.PHONY : VerticesCollection.cpp.o
+
+VerticesCollection.i: VerticesCollection.cpp.i
+
+.PHONY : VerticesCollection.i
+
+# target to preprocess a source file
+VerticesCollection.cpp.i:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/VerticesCollection.cpp.i
+.PHONY : VerticesCollection.cpp.i
+
+VerticesCollection.s: VerticesCollection.cpp.s
+
+.PHONY : VerticesCollection.s
+
+# target to generate assembly for a file
+VerticesCollection.cpp.s:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/VerticesCollection.cpp.s
+.PHONY : VerticesCollection.cpp.s
+
 lacze_do_gnuplota.o: lacze_do_gnuplota.cpp.o
 
 .PHONY : lacze_do_gnuplota.o
@@ -216,6 +270,12 @@ help:
 	@echo "... GraphicObject.o"
 	@echo "... GraphicObject.i"
 	@echo "... GraphicObject.s"
+	@echo "... Robot.o"
+	@echo "... Robot.i"
+	@echo "... Robot.s"
+	@echo "... VerticesCollection.o"
+	@echo "... VerticesCollection.i"
+	@echo "... VerticesCollection.s"
 	@echo "... lacze_do_gnuplota.o"
 	@echo "... lacze_do_gnuplota.i"
 	@echo "... lacze_do_gnuplota.s"

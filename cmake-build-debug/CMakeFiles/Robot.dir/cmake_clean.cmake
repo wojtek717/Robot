@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Robot.dir/main.cpp.o"
   "CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o"
   "CMakeFiles/Robot.dir/GraphicObject.cpp.o"
+  "CMakeFiles/Robot.dir/VerticesCollection.cpp.o"
+  "CMakeFiles/Robot.dir/Robot.cpp.o"
   "Robot.pdb"
   "Robot"
 )
