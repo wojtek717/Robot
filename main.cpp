@@ -14,8 +14,23 @@ int main()
 {
     Robot rb;
 
-    rb.setLocation(0,0);
+    char                  Znak;
+    PzG::LaczeDoGNUPlota  Lacze;
+
+    Lacze.DodajNazwePliku("rv.dat",PzG::RR_Ciagly,2);
+    Lacze.ZmienTrybRys(PzG::TR_2D);
+
+
     cout << rb.GetLocation() << endl;
+    for (int i = 0; i < 5; ++i)
+    {
+        cout << rb.GetVertex(i) << endl;
+    }
+
+    Lacze.Rysuj();
+    cin >> noskipws >> Znak;
+
+    /*
     rb.Rotate(90);
     cout << rb.GetOrientationAngle() << endl << endl;
 
@@ -24,9 +39,13 @@ int main()
         cout << rb.GetVertex(i) << endl;
     }
 
+    Lacze.Rysuj();
+    cin >> noskipws >> Znak;
+*/
+
     cout << "*****************" << endl << endl;
 
-    rb.Move(5);
+    rb.Move(50);
     cout << rb.GetLocation() << endl << endl;
 
     for (int i = 0; i < 5; ++i)
@@ -34,5 +53,6 @@ int main()
         cout << rb.GetVertex(i) << endl;
     }
 
-
+    Lacze.Rysuj();
+    cin >> noskipws >> Znak;
 }

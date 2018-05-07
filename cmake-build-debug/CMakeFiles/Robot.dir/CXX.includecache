@@ -33,6 +33,10 @@ GraphicObject.h
 /home/wojciech/CLionProjects/Robot/Robot.cpp
 cmath
 -
+fstream
+-
+iostream
+-
 Robot.h
 /home/wojciech/CLionProjects/Robot/Robot.h
 

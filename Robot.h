@@ -14,13 +14,12 @@ class Robot : public GraphicObject
 private:
     Path path;
 
+    void DrawVertices();
+
 public:
     Robot();
     void Move(double distance);
     void Rotate(double angle);
-    void Draw();
-
-
 };
 
 

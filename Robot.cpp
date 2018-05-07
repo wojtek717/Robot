@@ -3,32 +3,18 @@
 //
 
 #include <cmath>
+#include <fstream>
+#include <iostream>
 #include "Robot.h"
 
 Robot::Robot()
 {
-    setLocation(0,0);
+    SetLocation(0, 0);
     SetOrientationAngle(0);
 
-    AddVertex(
-            GetLocation()[0] + -5,
-            GetLocation()[1] + 5);
+    path.AddVertex(GetLocation());
 
-    AddVertex(
-            GetLocation()[0] + 0,
-            GetLocation()[1] + 5);
-
-    AddVertex(
-            GetLocation()[0] + 5,
-            GetLocation()[1] + 0);
-
-    AddVertex(
-            GetLocation()[0] + 0,
-            GetLocation()[1] + -5);
-
-    AddVertex(
-            GetLocation()[0] + -5,
-            GetLocation()[1] + -5);
+    DrawVertices();
 }
 
 void Robot::Move(double distance)
@@ -39,25 +25,29 @@ void Robot::Move(double distance)
     a = cos(GetOrientationAngleRad()) * distance;
     b = sin(GetOrientationAngleRad()) * distance;
 
-    setLocation(
+    SetLocation(
             GetLocation()[0] + a,
             GetLocation()[1] + b
-            );
+    );
 
-    Draw();
+    path.AddVertex(GetLocation());
+    DrawVertices();
 
 }
 
 void Robot::Rotate(double angle)
 {
     SetOrientationAngle(angle);
-    Draw();
+    DrawVertices();
 
 
 }
 
-void Robot::Draw()
+void Robot::DrawVertices()
 {
+    std::fstream verticesPlick;
+
+    verticesPlick.open("rv.dat", std::ios::out);
     RemoveVertices();
 
     AddVertex(
@@ -79,4 +69,19 @@ void Robot::Draw()
     AddVertex(
             GetLocation()[0] + (5*cos(3*M_PI/2+GetOrientationAngleRad())),
             GetLocation()[1] + (5*sin(3*M_PI/2+GetOrientationAngleRad())));
+
+    if(verticesPlick.is_open())
+    {
+        std::cout << "FILE OPENED" << std::endl;
+
+        for (int i = 0; i < 5; ++i)
+        {
+            verticesPlick << GetVertex(i) << std::endl;
+        }
+
+        verticesPlick.close();
+    } else
+    {
+        std::cout << "CANT OPEN FILE" << std::endl;
+    }
 }

@@ -13,7 +13,7 @@ GraphicObject::GraphicObject()
     orientationAngle = 0;
 }
 
-void GraphicObject::setLocation(double x, double y)
+void GraphicObject::SetLocation(double x, double y)
 {
     location[0] = x;
     location[1] = y;

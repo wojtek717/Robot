@@ -18,7 +18,7 @@ private:
 public:
     GraphicObject();
 
-    void setLocation(double x, double y);
+    void SetLocation(double x, double y);
     Vector2D GetLocation();
 
     void SetOrientationAngle(double angle);
