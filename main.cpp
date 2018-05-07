@@ -4,6 +4,7 @@
 #include "lacze_do_gnuplota.h"
 #include "GraphicObject.h"
 #include "Robot.h"
+#include "Path.h"
 
 
 using namespace std;
@@ -12,5 +13,11 @@ using namespace std;
 int main()
 {
     Robot rb;
-    Vector2D v2d(1,2);
+
+    rb.setLocation(0,0);
+    cout << rb.GetLocation() << endl;
+    rb.SetOrientationAngle(90);
+    cout << rb.GetOrientationAngle() << endl;
+    rb.Move(50);
+    cout << rb.GetLocation() << endl;
 }

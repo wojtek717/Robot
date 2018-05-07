@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wojciech/CLionProjects/Robot/GraphicObject.cpp" "/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir/GraphicObject.cpp.o"
+  "/home/wojciech/CLionProjects/Robot/Path.cpp" "/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir/Path.cpp.o"
   "/home/wojciech/CLionProjects/Robot/Robot.cpp" "/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir/Robot.cpp.o"
   "/home/wojciech/CLionProjects/Robot/VerticesCollection.cpp" "/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir/VerticesCollection.cpp.o"
   "/home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.cpp" "/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o"

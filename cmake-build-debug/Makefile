@@ -150,6 +150,33 @@ GraphicObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/GraphicObject.cpp.s
 .PHONY : GraphicObject.cpp.s
 
+Path.o: Path.cpp.o
+
+.PHONY : Path.o
+
+# target to build an object file
+Path.cpp.o:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Path.cpp.o
+.PHONY : Path.cpp.o
+
+Path.i: Path.cpp.i
+
+.PHONY : Path.i
+
+# target to preprocess a source file
+Path.cpp.i:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Path.cpp.i
+.PHONY : Path.cpp.i
+
+Path.s: Path.cpp.s
+
+.PHONY : Path.s
+
+# target to generate assembly for a file
+Path.cpp.s:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Path.cpp.s
+.PHONY : Path.cpp.s
+
 Robot.o: Robot.cpp.o
 
 .PHONY : Robot.o
@@ -270,6 +297,9 @@ help:
 	@echo "... GraphicObject.o"
 	@echo "... GraphicObject.i"
 	@echo "... GraphicObject.s"
+	@echo "... Path.o"
+	@echo "... Path.i"
+	@echo "... Path.s"
 	@echo "... Robot.o"
 	@echo "... Robot.i"
 	@echo "... Robot.s"

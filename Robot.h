@@ -7,10 +7,15 @@
 
 
 #include "GraphicObject.h"
+#include "Path.h"
 
 class Robot : public GraphicObject
 {
+private:
+    Path path;
 
+public:
+    void Move(double distance);
 };
 
 

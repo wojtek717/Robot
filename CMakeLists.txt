@@ -3,4 +3,4 @@ project(Robot)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Robot main.cpp lacze_do_gnuplota.cpp lacze_do_gnuplota.h Vector2D.h SVector.h GraphicObject.cpp GraphicObject.h VerticesCollection.cpp VerticesCollection.h Robot.cpp Robot.h)
+add_executable(Robot main.cpp lacze_do_gnuplota.cpp lacze_do_gnuplota.h Vector2D.h SVector.h GraphicObject.cpp GraphicObject.h VerticesCollection.cpp VerticesCollection.h Robot.cpp Robot.h Path.cpp Path.h)

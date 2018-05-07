@@ -90,6 +90,12 @@
 		<Unit filename="/home/wojciech/CLionProjects/Robot/GraphicObject.h">
 			<Option target="Robot"/>
 		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Path.cpp">
+			<Option target="Robot"/>
+		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Path.h">
+			<Option target="Robot"/>
+		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/Robot.cpp">
 			<Option target="Robot"/>
 		</Unit>

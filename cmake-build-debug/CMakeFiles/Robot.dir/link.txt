@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Robot.dir/main.cpp.o CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o CMakeFiles/Robot.dir/GraphicObject.cpp.o CMakeFiles/Robot.dir/VerticesCollection.cpp.o CMakeFiles/Robot.dir/Robot.cpp.o  -o Robot 
+/usr/bin/c++  -g   CMakeFiles/Robot.dir/main.cpp.o CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o CMakeFiles/Robot.dir/GraphicObject.cpp.o CMakeFiles/Robot.dir/VerticesCollection.cpp.o CMakeFiles/Robot.dir/Robot.cpp.o CMakeFiles/Robot.dir/Path.cpp.o  -o Robot 

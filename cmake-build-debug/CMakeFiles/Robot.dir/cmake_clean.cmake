@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Robot.dir/GraphicObject.cpp.o"
   "CMakeFiles/Robot.dir/VerticesCollection.cpp.o"
   "CMakeFiles/Robot.dir/Robot.cpp.o"
+  "CMakeFiles/Robot.dir/Path.cpp.o"
   "Robot.pdb"
   "Robot"
 )
