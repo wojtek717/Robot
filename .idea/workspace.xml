@@ -12,18 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28aa767c-4d4e-4b33-87de-358811a451c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rv.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphicObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GraphicObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Path.h" beforeDir="false" afterPath="$PROJECT_DIR$/Path.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Robot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Robot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/GraphicObject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/GraphicObject.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Robot.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Robot" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rv.dat" beforeDir="false" afterPath="$PROJECT_DIR$/rv.dat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +30,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="23">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -117,7 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
+    <option name="x" value="116" />
+    <option name="y" value="63" />
     <option name="width" value="673" />
     <option name="height" value="555" />
   </component>
@@ -191,7 +183,7 @@
       <workItem from="1525613151000" duration="663000" />
       <workItem from="1525613877794" duration="121000" />
       <workItem from="1525614029769" duration="4863000" />
-      <workItem from="1525697534203" duration="12124000" />
+      <workItem from="1525697534203" duration="12999000" />
     </task>
     <task id="LOCAL-00001" summary="GIT TEST COMMIT">
       <created>1525536241291</created>
@@ -214,23 +206,30 @@
       <option name="project" value="LOCAL" />
       <updated>1525705292965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Draws in GNUplot">
+      <created>1525719002744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525719002744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29196000" />
+    <option name="totallyTimeSpent" value="30071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="675" y="65" width="673" height="555" extended-state="0" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40461537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19583023" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31990522" />
       <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.70616114" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.4885246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996277" weight="0.3295082" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -251,7 +250,8 @@
     <MESSAGE value="GIT TEST COMMIT" />
     <MESSAGE value="Robot moves" />
     <MESSAGE value="Robot now rotates and moves with shape." />
-    <option name="LAST_COMMIT_MESSAGE" value="Robot now rotates and moves with shape." />
+    <MESSAGE value="Draws in GNUplot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Draws in GNUplot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="23">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
