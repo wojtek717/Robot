@@ -23,6 +23,7 @@ public:
 
     void SetOrientationAngle(double angle);
     double GetOrientationAngle();
+    double GetOrientationAngleRad();
 };
 
 

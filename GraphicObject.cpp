@@ -3,6 +3,7 @@
 //
 
 #include <fstream>
+#include <math.h>
 #include "GraphicObject.h"
 
 using namespace std;
@@ -31,4 +32,9 @@ void GraphicObject::SetOrientationAngle(double angle)
 double GraphicObject::GetOrientationAngle()
 {
     return orientationAngle;
+}
+
+double GraphicObject::GetOrientationAngleRad()
+{
+    return orientationAngle * M_PI / 180;
 }

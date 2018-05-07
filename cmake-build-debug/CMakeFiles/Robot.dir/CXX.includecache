@@ -9,6 +9,8 @@
 /home/wojciech/CLionProjects/Robot/GraphicObject.cpp
 fstream
 -
+math.h
+-
 GraphicObject.h
 /home/wojciech/CLionProjects/Robot/GraphicObject.h
 
@@ -17,6 +19,28 @@ iostream
 -
 Vector2D.h
 /home/wojciech/CLionProjects/Robot/Vector2D.h
+VerticesCollection.h
+/home/wojciech/CLionProjects/Robot/VerticesCollection.h
+
+/home/wojciech/CLionProjects/Robot/Path.cpp
+Path.h
+/home/wojciech/CLionProjects/Robot/Path.h
+
+/home/wojciech/CLionProjects/Robot/Path.h
+GraphicObject.h
+/home/wojciech/CLionProjects/Robot/GraphicObject.h
+
+/home/wojciech/CLionProjects/Robot/Robot.cpp
+cmath
+-
+Robot.h
+/home/wojciech/CLionProjects/Robot/Robot.h
+
+/home/wojciech/CLionProjects/Robot/Robot.h
+GraphicObject.h
+/home/wojciech/CLionProjects/Robot/GraphicObject.h
+Path.h
+/home/wojciech/CLionProjects/Robot/Path.h
 
 /home/wojciech/CLionProjects/Robot/SVector.h
 iostream
@@ -25,6 +49,16 @@ iostream
 /home/wojciech/CLionProjects/Robot/Vector2D.h
 SVector.h
 /home/wojciech/CLionProjects/Robot/SVector.h
+
+/home/wojciech/CLionProjects/Robot/VerticesCollection.cpp
+VerticesCollection.h
+/home/wojciech/CLionProjects/Robot/VerticesCollection.h
+
+/home/wojciech/CLionProjects/Robot/VerticesCollection.h
+vector
+-
+Vector2D.h
+/home/wojciech/CLionProjects/Robot/Vector2D.h
 
 /home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.cpp
 cstdlib
@@ -67,4 +101,8 @@ lacze_do_gnuplota.h
 /home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
 GraphicObject.h
 /home/wojciech/CLionProjects/Robot/GraphicObject.h
+Robot.h
+/home/wojciech/CLionProjects/Robot/Robot.h
+Path.h
+/home/wojciech/CLionProjects/Robot/Path.h
 

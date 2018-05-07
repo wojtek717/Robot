@@ -16,10 +16,12 @@ private:
 
 public:
     void AddVertex(Vector2D Vertex);
+    void AddVertex(double x, double y);
 
     void RemoveVertices();
 
     Vector2D GetVertex(int position);
+    void SetVertex(int position, double a, double b);
 };
 
 

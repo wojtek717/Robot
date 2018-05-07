@@ -20,7 +20,7 @@ public:
         for (STyp &Wsp: _Wsp) Wsp = 0;
     }
 
-    SVector(int x, int y)
+    SVector(STyp x, STyp y)
     {
         _Wsp[0] = x;
         _Wsp[1] = y;

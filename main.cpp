@@ -16,8 +16,23 @@ int main()
 
     rb.setLocation(0,0);
     cout << rb.GetLocation() << endl;
-    rb.SetOrientationAngle(90);
-    cout << rb.GetOrientationAngle() << endl;
-    rb.Move(50);
-    cout << rb.GetLocation() << endl;
+    rb.Rotate(90);
+    cout << rb.GetOrientationAngle() << endl << endl;
+
+    for (int i = 0; i < 5; ++i)
+    {
+        cout << rb.GetVertex(i) << endl;
+    }
+
+    cout << "*****************" << endl << endl;
+
+    rb.Move(5);
+    cout << rb.GetLocation() << endl << endl;
+
+    for (int i = 0; i < 5; ++i)
+    {
+        cout << rb.GetVertex(i) << endl;
+    }
+
+
 }

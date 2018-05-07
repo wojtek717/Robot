@@ -15,7 +15,12 @@ private:
     Path path;
 
 public:
+    Robot();
     void Move(double distance);
+    void Rotate(double angle);
+    void Draw();
+
+
 };
 
 
