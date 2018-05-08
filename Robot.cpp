@@ -15,6 +15,7 @@ Robot::Robot()
     path.AddVertex(GetLocation());
 
     DrawVertices();
+    path.DrawVertices();
 }
 
 void Robot::Move(double distance)
@@ -32,6 +33,7 @@ void Robot::Move(double distance)
 
     path.AddVertex(GetLocation());
     DrawVertices();
+    path.DrawVertices();
 
 }
 
@@ -51,30 +53,38 @@ void Robot::DrawVertices()
     RemoveVertices();
 
     AddVertex(
-            GetLocation()[0] + (5*cos(0+GetOrientationAngleRad())),
-            GetLocation()[1] + (5*sin(0+GetOrientationAngleRad())));
+            GetLocation()[0] + (50*cos(0+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sin(0+GetOrientationAngleRad())));
 
     AddVertex(
-            GetLocation()[0] + (5*cos(M_PI/2+GetOrientationAngleRad())),
-            GetLocation()[1] + (5*sin(M_PI/2+GetOrientationAngleRad())));
+            GetLocation()[0] + (50*cos(M_PI/2+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sin(M_PI/2+GetOrientationAngleRad())));
 
     AddVertex(
-            GetLocation()[0] + (5*sqrt(2)*cos(3*M_PI/4+GetOrientationAngleRad())),
-            GetLocation()[1] + (5*sqrt(2)*sin(3*M_PI/4+GetOrientationAngleRad())));
+            GetLocation()[0] + (50*sqrt(2)*cos(3*M_PI/4+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sqrt(2)*sin(3*M_PI/4+GetOrientationAngleRad())));
 
     AddVertex(
-            GetLocation()[0] + (5*sqrt(2)*cos(5*M_PI/4+GetOrientationAngleRad())),
-            GetLocation()[1] + (5*sqrt(2)*sin(5*M_PI/4+GetOrientationAngleRad())));
+            GetLocation()[0] + (50*sqrt(2)*cos(5*M_PI/4+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sqrt(2)*sin(5*M_PI/4+GetOrientationAngleRad())));
 
     AddVertex(
-            GetLocation()[0] + (5*cos(3*M_PI/2+GetOrientationAngleRad())),
-            GetLocation()[1] + (5*sin(3*M_PI/2+GetOrientationAngleRad())));
+            GetLocation()[0] + (50*cos(3*M_PI/2+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sin(3*M_PI/2+GetOrientationAngleRad())));
+
+    AddVertex(
+            GetLocation()[0] + (50*cos(0+GetOrientationAngleRad())),
+            GetLocation()[1] + (50*sin(0+GetOrientationAngleRad())));
+
+    AddVertex(
+            GetLocation()[0],
+            GetLocation()[1]);
 
     if(verticesPlick.is_open())
     {
         std::cout << "FILE OPENED" << std::endl;
 
-        for (int i = 0; i < 5; ++i)
+        for (int i = 0; i < 7; ++i)
         {
             verticesPlick << GetVertex(i) << std::endl;
         }

@@ -31,3 +31,8 @@ void VerticesCollection::SetVertex(int position, double a, double b)
 
     vertices[position] = v;
 }
+
+int VerticesCollection::VertivesSize()
+{
+    return vertices.size();
+}

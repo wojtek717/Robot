@@ -14,39 +14,16 @@ int main()
 {
     Robot rb;
 
-    char                  Znak;
-    PzG::LaczeDoGNUPlota  Lacze;
+    char Znak;
+    PzG::LaczeDoGNUPlota Lacze;
 
     int choice;
     double input;
 
     Lacze.DodajNazwePliku("rv.dat",PzG::RR_Ciagly,2);
+    Lacze.DodajNazwePliku("pathv.dat",PzG::RR_Ciagly,5);
     Lacze.ZmienTrybRys(PzG::TR_2D);
 
-/*
-    cout << rb.GetLocation() << endl;
-    for (int i = 0; i < 5; ++i)
-    {
-        cout << rb.GetVertex(i) << endl;
-    }
-
-    Lacze.Rysuj();
-    cin >> noskipws >> Znak;
-
-
-
-    cout << "*****************" << endl << endl;
-
-    rb.Move(50);
-    cout << rb.GetLocation() << endl << endl;
-
-    for (int i = 0; i < 5; ++i)
-    {
-        cout << rb.GetVertex(i) << endl;
-    }
-
-    Lacze.Rysuj();
-    cin >> noskipws >> Znak; */
 
     Lacze.Rysuj();
 

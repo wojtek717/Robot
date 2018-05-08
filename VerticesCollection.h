@@ -22,6 +22,8 @@ public:
 
     Vector2D GetVertex(int position);
     void SetVertex(int position, double a, double b);
+
+    int VertivesSize();
 };
 
 

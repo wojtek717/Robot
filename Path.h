@@ -10,7 +10,8 @@
 
 class Path : public VerticesCollection
 {
-
+public:
+    void DrawVertices();
 };
 
 
