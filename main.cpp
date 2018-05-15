@@ -6,6 +6,7 @@
 #include "GraphicObject.h"
 #include "Robot.h"
 #include "Path.h"
+#include "Consts.h"
 
 
 using namespace std;
@@ -47,8 +48,8 @@ int main()
                     Lacze.Rysuj();
 
                     i++;
-                    usleep(3000);
-                }while(i < input * input/300);
+                    usleep(FPSTIME);
+                }while(i < input * input/MVELOCITY);
                 i = 0;
 
                 break;
@@ -63,8 +64,8 @@ int main()
                     Lacze.Rysuj();
 
                     i++;
-                    usleep(3000);
-                }while (i < input * input/100);
+                    usleep(FPSTIME);
+                }while (i < input * input/RVELOCITY);
                 i = 0;
 
                 break;

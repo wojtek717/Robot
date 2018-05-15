@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/wojciech/CLionProjects/Robot/Consts.h
+
 /home/wojciech/CLionProjects/Robot/GraphicObject.cpp
 fstream
 -
@@ -117,4 +119,6 @@ Robot.h
 /home/wojciech/CLionProjects/Robot/Robot.h
 Path.h
 /home/wojciech/CLionProjects/Robot/Path.h
+Consts.h
+/home/wojciech/CLionProjects/Robot/Consts.h
 

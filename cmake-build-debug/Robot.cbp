@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Consts.h">
+			<Option target="Robot"/>
+		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/GraphicObject.cpp">
 			<Option target="Robot"/>
 		</Unit>
