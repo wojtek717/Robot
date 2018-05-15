@@ -5,8 +5,10 @@
 #include <fstream>
 #include "Path.h"
 
+//TODO ZAMIAST TEGO BEDZIE TA METODA NIZEJ ZAMIAST DO PLIKU I BEDZIE WYWOLYWANA W ROBOT
 void Path::DrawVertices()
 {
+    //TODO TO MA BYC OSOBNA METODA ALBO W GraphicObject albo VerticesCollection
     std::fstream verticesPlick;
 
     verticesPlick.open("pathv.dat", std::ios::out);

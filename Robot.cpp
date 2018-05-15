@@ -80,6 +80,7 @@ void Robot::DrawVertices()
             GetLocation()[0],
             GetLocation()[1]);
 
+    //TODO TO MA BYC OSOBNA METODA ALBO W GraphicObject albo VerticesCollection
     if(verticesPlick.is_open())
     {
         std::cout << "FILE OPENED" << std::endl;

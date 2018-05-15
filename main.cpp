@@ -31,6 +31,7 @@ int main()
     {
         cout << "1 - Move" << endl;
         cout << "2 - Rotate" << endl;
+        cout << "9 - Exit" << endl;
         cin >> choice;
 
         switch (choice)

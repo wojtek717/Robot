@@ -8,7 +8,7 @@
 
 #include "GraphicObject.h"
 
-class Path : public VerticesCollection
+class Path : public GraphicObject
 {
 public:
     void DrawVertices();
