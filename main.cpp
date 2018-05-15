@@ -12,16 +12,15 @@ using namespace std;
 
 int main()
 {
-    Robot rb;
-
+    Robot rb("rv.dat", "pathv.dat");
     char Znak;
     PzG::LaczeDoGNUPlota Lacze;
 
     int choice;
     double input;
 
-    Lacze.DodajNazwePliku("rv.dat",PzG::RR_Ciagly,2);
-    Lacze.DodajNazwePliku("pathv.dat",PzG::RR_Ciagly,5);
+    Lacze.DodajNazwePliku(rb.GetFileName(),PzG::RR_Ciagly,2);
+    Lacze.DodajNazwePliku(rb.GetPath().GetFileName(),PzG::RR_Ciagly,5);
     Lacze.ZmienTrybRys(PzG::TR_2D);
 
 

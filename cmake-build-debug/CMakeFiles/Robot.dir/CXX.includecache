@@ -17,6 +17,8 @@ GraphicObject.h
 /home/wojciech/CLionProjects/Robot/GraphicObject.h
 iostream
 -
+string
+-
 Vector2D.h
 /home/wojciech/CLionProjects/Robot/Vector2D.h
 VerticesCollection.h
@@ -43,6 +45,8 @@ Robot.h
 /home/wojciech/CLionProjects/Robot/Robot.h
 
 /home/wojciech/CLionProjects/Robot/Robot.h
+string
+-
 GraphicObject.h
 /home/wojciech/CLionProjects/Robot/GraphicObject.h
 Path.h

@@ -5,7 +5,7 @@
 #ifndef ROBOT_ROBOT_H
 #define ROBOT_ROBOT_H
 
-
+#include <string>
 #include "GraphicObject.h"
 #include "Path.h"
 
@@ -17,9 +17,11 @@ private:
     void DrawVertices();
 
 public:
-    Robot();
+    Robot(std::string rfile, std::string pfile);
     void Move(double distance);
     void Rotate(double angle);
+
+    Path GetPath();
 };
 
 

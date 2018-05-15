@@ -38,3 +38,39 @@ double GraphicObject::GetOrientationAngleRad()
 {
     return orientationAngle * M_PI / 180;
 }
+
+bool GraphicObject::SaveToFile()
+{
+    std::fstream file;
+
+    file.open(fileName, std::ios::out);
+
+    if(file.is_open())
+    {
+        std::cout << "FILE OPENED" << std::endl;
+
+        for (int i = 0; i < VertivesSize(); ++i)
+        {
+            file << GetVertex(i) << std::endl;
+        }
+
+        file.close();
+
+        return true;
+    } else
+    {
+        std::cout << "CANT OPEN FILE" << std::endl;
+        return false;
+    }
+}
+
+void GraphicObject::SetFileName(std::string fname)
+{
+    fileName = fname;
+}
+
+const char * GraphicObject::GetFileName()
+{
+    const char * c = fileName.c_str();
+    return c;
+}

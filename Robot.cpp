@@ -7,8 +7,11 @@
 #include <iostream>
 #include "Robot.h"
 
-Robot::Robot()
+Robot::Robot(std::string rfile, std::string pfile)
 {
+    SetFileName(rfile);
+    path.SetFileName(pfile);
+
     SetLocation(0, 0);
     SetOrientationAngle(0);
 
@@ -32,6 +35,8 @@ void Robot::Move(double distance)
     );
 
     path.AddVertex(GetLocation());
+    path.SetLocation(GetLocation()[0], GetLocation()[1]);
+
     DrawVertices();
     path.DrawVertices();
 
@@ -41,15 +46,10 @@ void Robot::Rotate(double angle)
 {
     SetOrientationAngle(angle);
     DrawVertices();
-
-
 }
 
 void Robot::DrawVertices()
 {
-    std::fstream verticesPlick;
-
-    verticesPlick.open("rv.dat", std::ios::out);
     RemoveVertices();
 
     AddVertex(
@@ -80,19 +80,10 @@ void Robot::DrawVertices()
             GetLocation()[0],
             GetLocation()[1]);
 
-    //TODO TO MA BYC OSOBNA METODA ALBO W GraphicObject albo VerticesCollection
-    if(verticesPlick.is_open())
-    {
-        std::cout << "FILE OPENED" << std::endl;
+    SaveToFile();
+}
 
-        for (int i = 0; i < 7; ++i)
-        {
-            verticesPlick << GetVertex(i) << std::endl;
-        }
-
-        verticesPlick.close();
-    } else
-    {
-        std::cout << "CANT OPEN FILE" << std::endl;
-    }
+Path Robot::GetPath()
+{
+    return path;
 }

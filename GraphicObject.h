@@ -6,6 +6,7 @@
 #define ROBOT_GRAPHICOBJECT_H
 
 #include <iostream>
+#include <string>
 #include "Vector2D.h"
 #include "VerticesCollection.h"
 
@@ -14,6 +15,8 @@ class GraphicObject : public VerticesCollection
 private:
     Vector2D location;
     double orientationAngle;
+    std::string fileName;
+
 
 public:
     GraphicObject();
@@ -24,6 +27,11 @@ public:
     void SetOrientationAngle(double angle);
     double GetOrientationAngle();
     double GetOrientationAngleRad();
+
+    void SetFileName(std::string fname);
+    const char * GetFileName();
+
+    bool SaveToFile();
 };
 
 
