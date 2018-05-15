@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <unistd.h>
 #include "lacze_do_gnuplota.h"
 #include "GraphicObject.h"
 #include "Robot.h"
@@ -17,6 +18,7 @@ int main()
     PzG::LaczeDoGNUPlota Lacze;
 
     int choice;
+    int i;
     double input;
 
     Lacze.DodajNazwePliku(rb.GetFileName(),PzG::RR_Ciagly,2);
@@ -39,16 +41,32 @@ int main()
                 cout << "How long: " << endl;
                 cin >> input;
 
-                rb.Move(input);
-                Lacze.Rysuj();
+                do
+                {
+                    rb.Move(input);
+                    Lacze.Rysuj();
+
+                    i++;
+                    usleep(3000);
+                }while(i < input * input/300);
+                i = 0;
+
                 break;
 
             case 2:
                 cout << "How much: " << endl;
                 cin >> input;
 
-                rb.Rotate(input);
-                Lacze.Rysuj();
+                do
+                {
+                    rb.Rotate(input);
+                    Lacze.Rysuj();
+
+                    i++;
+                    usleep(3000);
+                }while (i < input * input/100);
+                i = 0;
+
                 break;
 
             case 9:

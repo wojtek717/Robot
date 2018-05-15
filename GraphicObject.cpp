@@ -26,7 +26,7 @@ Vector2D GraphicObject::GetLocation()
 
 void GraphicObject::SetOrientationAngle(double angle)
 {
-    orientationAngle = angle;
+    orientationAngle += angle;
 }
 
 double GraphicObject::GetOrientationAngle()

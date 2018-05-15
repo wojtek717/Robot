@@ -30,8 +30,8 @@ void Robot::Move(double distance)
     b = sin(GetOrientationAngleRad()) * distance;
 
     SetLocation(
-            GetLocation()[0] + a,
-            GetLocation()[1] + b
+            GetLocation()[0] + a / (distance * distance / 300),
+            GetLocation()[1] + b / (distance * distance / 300)
     );
 
     path.AddVertex(GetLocation());
@@ -44,7 +44,7 @@ void Robot::Move(double distance)
 
 void Robot::Rotate(double angle)
 {
-    SetOrientationAngle(angle);
+    SetOrientationAngle(angle / (angle * angle / 100));
     DrawVertices();
 }
 

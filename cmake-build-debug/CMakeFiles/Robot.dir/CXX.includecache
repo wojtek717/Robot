@@ -107,6 +107,8 @@ iomanip
 -
 fstream
 -
+unistd.h
+-
 lacze_do_gnuplota.h
 /home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
 GraphicObject.h
