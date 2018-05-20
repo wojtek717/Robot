@@ -7,6 +7,9 @@
 
 #include "SVector.h"
 
+/*!  Vector2D is generated from SVector.
+ *  It is double type and it's size is 2.
+ */
 typedef SVector<double,2>  Vector2D;
 
 

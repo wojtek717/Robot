@@ -3,7 +3,7 @@
 //
 
 #include <fstream>
-#include <math.h>
+#include <cmath>
 #include "GraphicObject.h"
 
 using namespace std;
@@ -29,11 +29,6 @@ void GraphicObject::SetOrientationAngle(double angle)
     orientationAngle += angle;
 }
 
-double GraphicObject::GetOrientationAngle()
-{
-    return orientationAngle;
-}
-
 double GraphicObject::GetOrientationAngleRad()
 {
     return orientationAngle * M_PI / 180;
@@ -47,9 +42,7 @@ bool GraphicObject::SaveToFile()
 
     if(file.is_open())
     {
-        std::cout << "FILE OPENED" << std::endl;
-
-        for (int i = 0; i < VertivesSize(); ++i)
+        for (int i = 0; i < VerticesSize(); ++i)
         {
             file << GetVertex(i) << std::endl;
         }
@@ -59,7 +52,7 @@ bool GraphicObject::SaveToFile()
         return true;
     } else
     {
-        std::cout << "CANT OPEN FILE" << std::endl;
+        std::cout << "CANT OPEN FILE " << fileName << std::endl;
         return false;
     }
 }

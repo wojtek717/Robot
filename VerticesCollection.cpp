@@ -25,14 +25,12 @@ void VerticesCollection::AddVertex(double x, double y)
     vertices.push_back(v);
 }
 
-void VerticesCollection::SetVertex(int position, double a, double b)
-{
-    Vector2D v(a,b);
-
-    vertices[position] = v;
-}
-
-int VerticesCollection::VertivesSize()
+int VerticesCollection::VerticesSize()
 {
     return vertices.size();
+}
+
+void VerticesCollection::RemoveLastVertex()
+{
+    vertices.pop_back();
 }

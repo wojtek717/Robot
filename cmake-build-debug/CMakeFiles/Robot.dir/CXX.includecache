@@ -11,7 +11,7 @@
 /home/wojciech/CLionProjects/Robot/GraphicObject.cpp
 fstream
 -
-math.h
+cmath
 -
 GraphicObject.h
 /home/wojciech/CLionProjects/Robot/GraphicObject.h
@@ -45,6 +45,8 @@ iostream
 -
 Robot.h
 /home/wojciech/CLionProjects/Robot/Robot.h
+Consts.h
+/home/wojciech/CLionProjects/Robot/Consts.h
 
 /home/wojciech/CLionProjects/Robot/Robot.h
 string

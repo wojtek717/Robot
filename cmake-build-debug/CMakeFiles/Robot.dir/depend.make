@@ -14,6 +14,7 @@ CMakeFiles/Robot.dir/Path.cpp.o: ../SVector.h
 CMakeFiles/Robot.dir/Path.cpp.o: ../Vector2D.h
 CMakeFiles/Robot.dir/Path.cpp.o: ../VerticesCollection.h
 
+CMakeFiles/Robot.dir/Robot.cpp.o: ../Consts.h
 CMakeFiles/Robot.dir/Robot.cpp.o: ../GraphicObject.h
 CMakeFiles/Robot.dir/Robot.cpp.o: ../Path.h
 CMakeFiles/Robot.dir/Robot.cpp.o: ../Robot.cpp

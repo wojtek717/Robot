@@ -15,11 +15,10 @@ using namespace std;
 int main()
 {
     Robot rb("rv.dat", "pathv.dat");
-    char Znak;
     PzG::LaczeDoGNUPlota Lacze;
 
     int choice;
-    int i;
+    double i;
     double input;
 
     Lacze.DodajNazwePliku(rb.GetFileName(),PzG::RR_Ciagly,2);
@@ -42,31 +41,30 @@ int main()
                 cout << "How long: " << endl;
                 cin >> input;
 
+                i = 0;
                 do
                 {
-                    rb.Move(input);
+                    if(i > 0)
+                    {
+                        rb.GetPath().RemoveLastVertex();
+                    }
+                    rb.Move(1);
                     Lacze.Rysuj();
 
-                    i++;
-                    usleep(FPSTIME);
-                }while(i < input * input/MVELOCITY);
-                i = 0;
+                    usleep(2000);
 
+                    i++;
+                }while (i < input);
+
+                cout << rb.GetPath().VerticesSize() << endl;
                 break;
 
             case 2:
                 cout << "How much: " << endl;
                 cin >> input;
 
-                do
-                {
-                    rb.Rotate(input);
-                    Lacze.Rysuj();
-
-                    i++;
-                    usleep(FPSTIME);
-                }while (i < input * input/RVELOCITY);
-                i = 0;
+                rb.Rotate(input);
+                Lacze.Rysuj();
 
                 break;
 

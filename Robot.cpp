@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 #include "Robot.h"
+#include "Consts.h"
 
 Robot::Robot(std::string rfile, std::string pfile)
 {
@@ -18,7 +19,7 @@ Robot::Robot(std::string rfile, std::string pfile)
     path.AddVertex(GetLocation());
 
     DrawVertices();
-    path.DrawVertices();
+    path.SaveToFile();
 }
 
 void Robot::Move(double distance)
@@ -26,25 +27,26 @@ void Robot::Move(double distance)
     double a;
     double b;
 
-    a = cos(GetOrientationAngleRad()) * distance;
-    b = sin(GetOrientationAngleRad()) * distance;
+    a = cos(GetOrientationAngleRad());
+    b = sin(GetOrientationAngleRad());
 
     SetLocation(
-            GetLocation()[0] + a / (distance * distance / 300),
-            GetLocation()[1] + b / (distance * distance / 300)
+            GetLocation()[0] + a,
+            GetLocation()[1] + b
     );
 
     path.AddVertex(GetLocation());
     path.SetLocation(GetLocation()[0], GetLocation()[1]);
 
     DrawVertices();
-    path.DrawVertices();
+    path.SaveToFile();
 
 }
 
 void Robot::Rotate(double angle)
 {
-    SetOrientationAngle(angle / (angle * angle / 100));
+
+    SetOrientationAngle(angle);
     DrawVertices();
 }
 
@@ -83,7 +85,7 @@ void Robot::DrawVertices()
     SaveToFile();
 }
 
-Path Robot::GetPath()
+Path& Robot::GetPath()
 {
     return path;
 }

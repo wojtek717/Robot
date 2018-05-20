@@ -7,6 +7,9 @@
 
 #include <iostream>
 
+/*!
+ *  Template for Vector
+ */
 
 template <typename STyp, int SWymiar>
 class SVector

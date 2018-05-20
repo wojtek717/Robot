@@ -8,10 +8,11 @@
 
 #include "GraphicObject.h"
 
+/*! Class represents the path of moving the Robot object
+ *  Path inherits from GraphicObject */
 class Path : public GraphicObject
 {
-public:
-    void DrawVertices();
+
 };
 
 
