@@ -63,8 +63,17 @@ int main()
                 cout << "How much: " << endl;
                 cin >> input;
 
-                rb.Rotate(input);
-                Lacze.Rysuj();
+                i = 0;
+                do
+                {
+                    rb.Rotate(1);
+                    Lacze.Rysuj();
+
+                    usleep(2000);
+
+                    i++;
+                }while (i < input);
+
 
                 break;
 
