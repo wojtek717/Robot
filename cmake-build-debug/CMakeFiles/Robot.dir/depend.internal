@@ -23,6 +23,16 @@ CMakeFiles/Robot.dir/Robot.cpp.o
  /home/wojciech/CLionProjects/Robot/SVector.h
  /home/wojciech/CLionProjects/Robot/Vector2D.h
  /home/wojciech/CLionProjects/Robot/VerticesCollection.h
+CMakeFiles/Robot.dir/Scene.cpp.o
+ /home/wojciech/CLionProjects/Robot/GraphicObject.h
+ /home/wojciech/CLionProjects/Robot/Path.h
+ /home/wojciech/CLionProjects/Robot/Robot.h
+ /home/wojciech/CLionProjects/Robot/SVector.h
+ /home/wojciech/CLionProjects/Robot/Scene.cpp
+ /home/wojciech/CLionProjects/Robot/Scene.h
+ /home/wojciech/CLionProjects/Robot/Vector2D.h
+ /home/wojciech/CLionProjects/Robot/VerticesCollection.h
+ /home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
 CMakeFiles/Robot.dir/VerticesCollection.cpp.o
  /home/wojciech/CLionProjects/Robot/SVector.h
  /home/wojciech/CLionProjects/Robot/Vector2D.h
@@ -37,6 +47,7 @@ CMakeFiles/Robot.dir/main.cpp.o
  /home/wojciech/CLionProjects/Robot/Path.h
  /home/wojciech/CLionProjects/Robot/Robot.h
  /home/wojciech/CLionProjects/Robot/SVector.h
+ /home/wojciech/CLionProjects/Robot/Scene.h
  /home/wojciech/CLionProjects/Robot/Vector2D.h
  /home/wojciech/CLionProjects/Robot/VerticesCollection.h
  /home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h

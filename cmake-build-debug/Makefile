@@ -204,6 +204,33 @@ Robot.cpp.s:
 	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Robot.cpp.s
 .PHONY : Robot.cpp.s
 
+Scene.o: Scene.cpp.o
+
+.PHONY : Scene.o
+
+# target to build an object file
+Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Scene.cpp.o
+.PHONY : Scene.cpp.o
+
+Scene.i: Scene.cpp.i
+
+.PHONY : Scene.i
+
+# target to preprocess a source file
+Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Scene.cpp.i
+.PHONY : Scene.cpp.i
+
+Scene.s: Scene.cpp.s
+
+.PHONY : Scene.s
+
+# target to generate assembly for a file
+Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/Robot.dir/build.make CMakeFiles/Robot.dir/Scene.cpp.s
+.PHONY : Scene.cpp.s
+
 VerticesCollection.o: VerticesCollection.cpp.o
 
 .PHONY : VerticesCollection.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Robot.o"
 	@echo "... Robot.i"
 	@echo "... Robot.s"
+	@echo "... Scene.o"
+	@echo "... Scene.i"
+	@echo "... Scene.s"
 	@echo "... VerticesCollection.o"
 	@echo "... VerticesCollection.i"
 	@echo "... VerticesCollection.s"

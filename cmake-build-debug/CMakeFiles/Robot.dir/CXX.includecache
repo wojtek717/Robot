@@ -60,6 +60,30 @@ Path.h
 iostream
 -
 
+/home/wojciech/CLionProjects/Robot/Scene.cpp
+unistd.h
+-
+Scene.h
+/home/wojciech/CLionProjects/Robot/Scene.h
+lacze_do_gnuplota.h
+/home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
+
+/home/wojciech/CLionProjects/Robot/Scene.h
+Robot.h
+/home/wojciech/CLionProjects/Robot/Robot.h
+lacze_do_gnuplota.h
+/home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
+iostream
+-
+iomanip
+-
+vector
+-
+list
+-
+fstream
+-
+
 /home/wojciech/CLionProjects/Robot/Vector2D.h
 SVector.h
 /home/wojciech/CLionProjects/Robot/SVector.h
@@ -123,4 +147,6 @@ Path.h
 /home/wojciech/CLionProjects/Robot/Path.h
 Consts.h
 /home/wojciech/CLionProjects/Robot/Consts.h
+Scene.h
+/home/wojciech/CLionProjects/Robot/Scene.h
 

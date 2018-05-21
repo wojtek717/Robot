@@ -23,6 +23,16 @@ CMakeFiles/Robot.dir/Robot.cpp.o: ../SVector.h
 CMakeFiles/Robot.dir/Robot.cpp.o: ../Vector2D.h
 CMakeFiles/Robot.dir/Robot.cpp.o: ../VerticesCollection.h
 
+CMakeFiles/Robot.dir/Scene.cpp.o: ../GraphicObject.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../Path.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../Robot.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../SVector.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../Scene.cpp
+CMakeFiles/Robot.dir/Scene.cpp.o: ../Scene.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../Vector2D.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../VerticesCollection.h
+CMakeFiles/Robot.dir/Scene.cpp.o: ../lacze_do_gnuplota.h
+
 CMakeFiles/Robot.dir/VerticesCollection.cpp.o: ../SVector.h
 CMakeFiles/Robot.dir/VerticesCollection.cpp.o: ../Vector2D.h
 CMakeFiles/Robot.dir/VerticesCollection.cpp.o: ../VerticesCollection.cpp
@@ -36,6 +46,7 @@ CMakeFiles/Robot.dir/main.cpp.o: ../GraphicObject.h
 CMakeFiles/Robot.dir/main.cpp.o: ../Path.h
 CMakeFiles/Robot.dir/main.cpp.o: ../Robot.h
 CMakeFiles/Robot.dir/main.cpp.o: ../SVector.h
+CMakeFiles/Robot.dir/main.cpp.o: ../Scene.h
 CMakeFiles/Robot.dir/main.cpp.o: ../Vector2D.h
 CMakeFiles/Robot.dir/main.cpp.o: ../VerticesCollection.h
 CMakeFiles/Robot.dir/main.cpp.o: ../lacze_do_gnuplota.h

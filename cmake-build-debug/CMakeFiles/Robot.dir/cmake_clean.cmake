@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Robot.dir/VerticesCollection.cpp.o"
   "CMakeFiles/Robot.dir/Robot.cpp.o"
   "CMakeFiles/Robot.dir/Path.cpp.o"
+  "CMakeFiles/Robot.dir/Scene.cpp.o"
   "Robot.pdb"
   "Robot"
 )

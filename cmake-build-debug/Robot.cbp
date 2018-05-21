@@ -108,6 +108,12 @@
 		<Unit filename="/home/wojciech/CLionProjects/Robot/SVector.h">
 			<Option target="Robot"/>
 		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Scene.cpp">
+			<Option target="Robot"/>
+		</Unit>
+		<Unit filename="/home/wojciech/CLionProjects/Robot/Scene.h">
+			<Option target="Robot"/>
+		</Unit>
 		<Unit filename="/home/wojciech/CLionProjects/Robot/Vector2D.h">
 			<Option target="Robot"/>
 		</Unit>
