@@ -1,0 +1,972 @@
+\hypertarget{classPzG_1_1LaczeDoGNUPlota}{}\section{PzG\+:\+:Lacze\+Do\+G\+N\+U\+Plota Class Reference}
+\label{classPzG_1_1LaczeDoGNUPlota}\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+
+
+Klasa realizuje interfejs do programu G\+N\+U\+Plot.  
+
+
+
+
+{\ttfamily \#include $<$lacze\+\_\+do\+\_\+gnuplota.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a11421d7c67deab6b7524cc492407e897}{Pokaz\+Os\+\_\+\+OX} (bool Pokaz)
+\begin{DoxyCompactList}\small\item\em Umożliwia lub zabrania rysowania osi OX. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_ae112972af57167c3b053bf922bce6bbf}{Pokaz\+Os\+\_\+\+OX} () const
+\begin{DoxyCompactList}\small\item\em Czy oś OX ma być rysowana. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a7c3db909b266fc30808e86406c04b516}{Pokaz\+Os\+\_\+\+OY} (bool Pokaz)
+\begin{DoxyCompactList}\small\item\em Umożliwia lub zabrania rysowania osi OY. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a7298f469f6932f5c808dcf620650b4b8}{Pokaz\+Os\+\_\+\+OY} () const
+\begin{DoxyCompactList}\small\item\em Czy oś OY ma być rysowana. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a9fabfe88cb1801a5de8923f45f514b99}{Pokaz\+Os\+\_\+\+OZ} (bool Pokaz)
+\begin{DoxyCompactList}\small\item\em Umożliwia lub zabrania rysowania osi OZ. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a22c708af33c57bf3b5d1b4e82b4017b7}{Pokaz\+Os\+\_\+\+OZ} () const
+\begin{DoxyCompactList}\small\item\em Czy oś OZ ma być rysowana. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a66836c9749bf179420e4ca3e9447efd7}{Xmin} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a8e23479629af3df3d352b7839ae396b8}{Xmax} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a9352c0382bfaeaaba9f65399a7383164}{Ymin} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_ac54e4e7448ce3bd324efdc94a999f535}{Ymax} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a9068bd9a9873ba9c6d70016f1ae7cd7f}{Zmin} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a20a5d03e1fc19c682032bffc54340f12}{Zmax} () const
+\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a10950349b348fd3a3d4143e95337527c}{Zmien\+Tryb\+Rys} (\hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania} Tryb)
+\begin{DoxyCompactList}\small\item\em Zmienia tryb rysowania. \end{DoxyCompactList}\item 
+\hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania} \hyperlink{classPzG_1_1LaczeDoGNUPlota_a7c417f27b4b112f58a5be3ce6ea8d1fe}{Wez\+Tryb\+Rys} () const
+\begin{DoxyCompactList}\small\item\em Udostępnia aktualny tryb rysowania. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a9c91987dfc869d6fcea96205c581daef}{Ustaw\+ZakresX} (float Xo, float Xn)
+\begin{DoxyCompactList}\small\item\em Ustawia zakres osi {\itshape OX}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a54c6e9cf9ab2eae479451fd953c2717c}{Ustaw\+ZakresY} (float Yo, float Yn)
+\begin{DoxyCompactList}\small\item\em Ustawia zakres osi {\itshape OY}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a1dbbb2b86fb13b8632e6bad9df2a82e3}{Ustaw\+ZakresZ} (float Zo, float Zn)
+\begin{DoxyCompactList}\small\item\em Ustawia zakres osi {\itshape OZ}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a4b1eb252fd785a5aeff938e7b2dce2b1}{SkalaX} () const
+\begin{DoxyCompactList}\small\item\em Udostępnia skalę dla osi {\itshape OX}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a44f922ccbc508d6cd7809c669238dae3}{SkalaZ} () const
+\begin{DoxyCompactList}\small\item\em Udostępnia skalę dla osi {\itshape OZ}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a855b8338bfe3e5d294d719f24b11090e}{Ustaw\+SkaleX} (float skala\+\_\+x)
+\begin{DoxyCompactList}\small\item\em Zadaje skalę wzdłuż osi {\itshape OZ}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_ab0486db3166d8db6580a221079af241f}{Ustaw\+SkaleZ} (float skala\+\_\+z)
+\begin{DoxyCompactList}\small\item\em Zadaje skalę wzdłuż osi {\itshape OZ}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a4308151b54e105d302803146a3238699}{Ustaw\+Skale\+XZ} (float skala\+\_\+x, float skala\+\_\+z)
+\begin{DoxyCompactList}\small\item\em Zadaje skalę wzdłuż osi {\itshape OX} i {\itshape OZ}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_addf0b844f626f3f5220de70efcbbdbb3}{RotacjaX} () const
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a9dac73754fab10644b287756003e9c79}{RotacjaZ} () const
+\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a88324c53a70846fb6bc9d918ce21fd56}{Ustaw\+RotacjeX} (float kat\+\_\+x)
+\begin{DoxyCompactList}\small\item\em Ustawia rotację wokół osi {\itshape OX}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a458399aa2a8f4b3f00ccd5b272857ea1}{Ustaw\+RotacjeZ} (float kat\+\_\+z)
+\begin{DoxyCompactList}\small\item\em Ustawia rotację wokół osi {\itshape OZ}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a94d8527fd78048ed6cb32ffb29e5f903}{Ustaw\+Rotacje\+XZ} (float kat\+\_\+x, float kat\+\_\+z)
+\begin{DoxyCompactList}\small\item\em Ustawia rotację wokół osi {\itshape OX} i {\itshape OZ}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a4531e6d166faf2e2c8bb4a54a9c9e1f8}{Wyswietlaj\+Komunikaty\+Bledow} (bool Tryb=true)
+\begin{DoxyCompactList}\small\item\em Zezwala lub zabrania wyświetlania komunikatów. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a34bd48f57c0fd69c12bf4127a1cacd8f}{Dodaj\+Nazwe\+Pliku} (const char $\ast$Nazwa\+Pliku, \hyperlink{namespacePzG_a705c92106f39b7d0c34a6739d10ff0b6}{Rodzaj\+Rysowania} Rodz\+Rys=\hyperlink{namespacePzG_a705c92106f39b7d0c34a6739d10ff0b6a927eaa159aa4bd3198f0a330b967746d}{R\+R\+\_\+\+Ciagly}, int Szerokosc=1)
+\begin{DoxyCompactList}\small\item\em Dodaje nazwę pliku. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_ad3d7607946b82aa941d786dcd086d27e}{Dopisz\+Rysowanie\+Z\+Plikow} (std\+::string \&Polecenie, char const $\ast$$\ast$Sep)
+\begin{DoxyCompactList}\small\item\em Tworzy listę parametrów umożliwiających rysowanie brył z plików. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_af8be8aeb3b1b524fab67d4411cba5b9e}{Czy\+Polaczenie\+Jest\+Zainicjowane} () const
+\begin{DoxyCompactList}\small\item\em Informuje, czy połączenie z {\itshape gnuplot\textquotesingle{}em} jest zainicjalizowane. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}{Rysuj} ()
+\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_addae9ac156ae2fb227f792faff3aa148}{Rysuj\+Do\+Pliku} (const char $\ast$Nazwa\+Pliku)
+\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a200ce6bdb980c314a9eafe49e8f2dd5e}{Inicjalizuj} ()
+\begin{DoxyCompactList}\small\item\em Inicjalizuje połączenie z programem {\itshape gnuplot}. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a75f599f17413ea8602c6dbba09f36407}{Usun\+Ostatnia\+Nazwe} ()
+\begin{DoxyCompactList}\small\item\em Usuwa ostatnią nazwę pliku. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a89a1d90d017d264cd26398464d074073}{Usun\+Wszystkie\+Nazwy\+Plikow} ()
+\begin{DoxyCompactList}\small\item\em Kasuje zawartość listy nazw plików. \end{DoxyCompactList}\item 
+\hyperlink{classPzG_1_1LaczeDoGNUPlota_a5845189b5ab8c3634acf57024e5deeaf}{Lacze\+Do\+G\+N\+U\+Plota} ()
+\item 
+virtual \hyperlink{classPzG_1_1LaczeDoGNUPlota_afc10ec7f193032ecae714f6d832dcbf0}{$\sim$\+Lacze\+Do\+G\+N\+U\+Plota} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a25585ec3f1bd3b6bf42f374c38b8d237}{Dopisz\+Pliki\+Do\+Polecenia\+Rysowania} (std\+::string \&Polecenie, char const $\ast$$\ast$Sep)
+\begin{DoxyCompactList}\small\item\em Tworzy listę parametrów umożliwiających rysowanie dodatkowych elementów. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classPzG_1_1LaczeDoGNUPlota_a4579aecf7b4777fdde0cae4e98c275c2}{Zapisz\+Ustawienie\+Zakresu} (char Os) const
+\begin{DoxyCompactList}\small\item\em Tworzy polecenie ustawiające zakres dla danej współrzędnej. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classPzG_1_1LaczeDoGNUPlota_aa92b463e8cbae31b50dd797a4183bce8}{Zapisz\+Ustawienie\+Rotacji\+I\+Skali} () const
+\begin{DoxyCompactList}\small\item\em Tworzy polecenie ustawiające punkt obserwacji. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a5063854b7232a7951d120a21df63f2b7}{Przeslij\+Do\+G\+N\+U\+Plota} (const char $\ast$Polecenie)
+\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a5e4f3a226ed36f7110032d802d84847c}{Czy\+Wyswietlac\+Komunikaty} () const
+\begin{DoxyCompactList}\small\item\em Udostępnia informację czy mają być wyświetlane informacje o błędach. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a1c7b9acc40de8d8bbb40fb0722512933}{Utworz\+Proces\+Potomny} ()
+\begin{DoxyCompactList}\small\item\em Uruchamia program {\itshape gnuplot} jako proces potomny. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a90056743aeaa546721528005f2cf41e6}{Komunikat\+Bledu} (const char $\ast$Komunikat) const
+\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a0da98f68f533070d5a32adbdb519cf56}{Buduj\+Preambule\+Polecenia\+Rysowania} (std\+::string \&Preambula) const
+\begin{DoxyCompactList}\small\item\em Tworzy preambułę poprzedzającą polecenie rysowania. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a0ac655ff1934abb69ea668cd92ae77ec}{Buduj\+Preambule\+\_\+2D} (std\+::string \&Preambula) const
+\begin{DoxyCompactList}\small\item\em Tworzy preambułę poprzedzającą polecenie rysowania w trybie 2D. \end{DoxyCompactList}\item 
+void \hyperlink{classPzG_1_1LaczeDoGNUPlota_a50a544677e52829cac4dd4a95b821dcb}{Buduj\+Preambule\+\_\+3D} (std\+::string \&Preambula) const
+\begin{DoxyCompactList}\small\item\em Tworzy preambułę poprzedzającą polecenie rysowania w trybie 3D. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classPzG_1_1LaczeDoGNUPlota_adc3a2250216c2473a61da379da70b2d7}{\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota}
+\item 
+int \hyperlink{classPzG_1_1LaczeDoGNUPlota_a7d05a4767a35ee494d59724bb740dbc2}{\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota}
+\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a2f2800f14ebfe1caef0b4d30c410a7fe}{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach}
+\begin{DoxyCompactList}\small\item\em Decyduje czy mają być wyświetlane komunikaty o błędach, czy też nie. \end{DoxyCompactList}\item 
+\hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania} \hyperlink{classPzG_1_1LaczeDoGNUPlota_a00e3a51bb47d3fb26eee875dc48215db}{\+\_\+\+Tryb\+Rys}
+\begin{DoxyCompactList}\small\item\em Określa aktualny tryb rysowania. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a69d530edfe769e38448972e897456deb}{\+\_\+\+Xmin}
+\begin{DoxyCompactList}\small\item\em Dolny zakres wyświetlanej skali skali dla osi {\itshape OX}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a847e00678a413ab076ccbcb7eba3ae58}{\+\_\+\+Xmax}
+\begin{DoxyCompactList}\small\item\em Górny zakres wyświetlanej skali skali dla osi {\itshape OX}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_abc555fd6b82b0d5c9efb4802b58dc317}{\+\_\+\+Ymin}
+\begin{DoxyCompactList}\small\item\em Dolny zakres wyświetlanej skali skali dla osi {\itshape OY}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_ad7dfd3fad82ea0720ec89eacc18410bf}{\+\_\+\+Ymax}
+\begin{DoxyCompactList}\small\item\em Górny zakres wyświetlanej skali skali dla osi {\itshape OY}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a8f9797e881df35f4206cb7d8030e5edc}{\+\_\+\+Zmin}
+\begin{DoxyCompactList}\small\item\em Dolny zakres wyświetlanej skali skali dla osi {\itshape OZ}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a26949eedd421832f0f206ce3c8f90694}{\+\_\+\+Zmax}
+\begin{DoxyCompactList}\small\item\em Górny zakres wyświetlanej skali skali dla osi {\itshape OZ}. \end{DoxyCompactList}\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a2c9303c4dbb4c9f0ddc4f1fe02eb3f70}{\+\_\+\+Xskala}
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a85446d06b2d714b2f852ef43c47c73c1}{\+\_\+\+Zskala}
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_a21e77f0a2bfb7fed989b6dc2d64b5a7e}{\+\_\+\+Xrotacja}
+\item 
+float \hyperlink{classPzG_1_1LaczeDoGNUPlota_aa65781b1ff96dfb31a780e98ee28d6ed}{\+\_\+\+Zrotacja}
+\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a833aa8994b9913786f920ec8c259731f}{\+\_\+\+Pokaz\+Os\+\_\+\+OX}
+\begin{DoxyCompactList}\small\item\em Czy oś OX ma być widoczna. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_ae8d9b4dac5eae6ce86b7043c45b70ed8}{\+\_\+\+Pokaz\+Os\+\_\+\+OY}
+\begin{DoxyCompactList}\small\item\em Czy oś OY ma być widoczna. \end{DoxyCompactList}\item 
+bool \hyperlink{classPzG_1_1LaczeDoGNUPlota_a5b0afc06dc248790d2e7475b2162e309}{\+\_\+\+Pokaz\+Os\+\_\+\+OZ}
+\begin{DoxyCompactList}\small\item\em Czy oś OZ ma być widoczna. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::list$<$ \hyperlink{classPzG_1_1InfoPlikuDoRysowania}{Info\+Pliku\+Do\+Rysowania} $>$ \hyperlink{classPzG_1_1LaczeDoGNUPlota_a1916c5a6fecfb3554e9d5204b2f2086c}{\+\_\+\+Info\+Plikow}
+\begin{DoxyCompactList}\small\item\em Lista nazw plików z danymi dla {\itshape gnuplota}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa realizuje interfejs do programu G\+N\+U\+Plot. 
+
+Klasa realizuje interfejs do programu G\+N\+U\+Plot. Pozwala ona na wskazanie zbioru punktów płaszczyzn umieszczonych w pliku lub plikach. Każdy taki zbiór może być następnie wizualizowany przez program gnuplot w postaci oddzielnych płaszczyzn z wycinaniem części zasłanianych. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a5845189b5ab8c3634acf57024e5deeaf}\label{classPzG_1_1LaczeDoGNUPlota_a5845189b5ab8c3634acf57024e5deeaf}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Lacze\+Do\+G\+N\+U\+Plota@{Lacze\+Do\+G\+N\+U\+Plota}}
+\index{Lacze\+Do\+G\+N\+U\+Plota@{Lacze\+Do\+G\+N\+U\+Plota}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Lacze\+Do\+G\+N\+U\+Plota()}{LaczeDoGNUPlota()}}
+{\footnotesize\ttfamily Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Lacze\+Do\+G\+N\+U\+Plota (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_afc10ec7f193032ecae714f6d832dcbf0}\label{classPzG_1_1LaczeDoGNUPlota_afc10ec7f193032ecae714f6d832dcbf0}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!````~Lacze\+Do\+G\+N\+U\+Plota@{$\sim$\+Lacze\+Do\+G\+N\+U\+Plota}}
+\index{````~Lacze\+Do\+G\+N\+U\+Plota@{$\sim$\+Lacze\+Do\+G\+N\+U\+Plota}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{$\sim$\+Lacze\+Do\+G\+N\+U\+Plota()}{~LaczeDoGNUPlota()}}
+{\footnotesize\ttfamily Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::$\sim$\+Lacze\+Do\+G\+N\+U\+Plota (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a0ac655ff1934abb69ea668cd92ae77ec}\label{classPzG_1_1LaczeDoGNUPlota_a0ac655ff1934abb69ea668cd92ae77ec}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Buduj\+Preambule\+\_\+2D@{Buduj\+Preambule\+\_\+2D}}
+\index{Buduj\+Preambule\+\_\+2D@{Buduj\+Preambule\+\_\+2D}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Buduj\+Preambule\+\_\+2\+D()}{BudujPreambule\_2D()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Buduj\+Preambule\+\_\+2D (\begin{DoxyParamCaption}\item[{std\+::string \&}]{Preambula }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tworzy preambułę poprzedzającą polecenie rysowania w trybie 2D. 
+
+Tworzy zbiór poleceń, które ustawiają właściwy tryb rysowania oraz zakresy współrzędnych, jak też wszystkie inne parametry wynikające z trybu rysowania 2D. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a50a544677e52829cac4dd4a95b821dcb}\label{classPzG_1_1LaczeDoGNUPlota_a50a544677e52829cac4dd4a95b821dcb}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Buduj\+Preambule\+\_\+3D@{Buduj\+Preambule\+\_\+3D}}
+\index{Buduj\+Preambule\+\_\+3D@{Buduj\+Preambule\+\_\+3D}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Buduj\+Preambule\+\_\+3\+D()}{BudujPreambule\_3D()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Buduj\+Preambule\+\_\+3D (\begin{DoxyParamCaption}\item[{std\+::string \&}]{Preambula }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tworzy preambułę poprzedzającą polecenie rysowania w trybie 3D. 
+
+Tworzy zbiór poleceń, które ustawiają właściwy tryb rysowania oraz zakresy współrzędnych, jak też wszystkie inne parametry wynikające z trybu rysowania 3D. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a0da98f68f533070d5a32adbdb519cf56}\label{classPzG_1_1LaczeDoGNUPlota_a0da98f68f533070d5a32adbdb519cf56}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Buduj\+Preambule\+Polecenia\+Rysowania@{Buduj\+Preambule\+Polecenia\+Rysowania}}
+\index{Buduj\+Preambule\+Polecenia\+Rysowania@{Buduj\+Preambule\+Polecenia\+Rysowania}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Buduj\+Preambule\+Polecenia\+Rysowania()}{BudujPreambulePoleceniaRysowania()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Buduj\+Preambule\+Polecenia\+Rysowania (\begin{DoxyParamCaption}\item[{std\+::string \&}]{Preambula }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tworzy preambułę poprzedzającą polecenie rysowania. 
+
+Tworzy zbiór poleceń, które ustawiają właściwy tryb rysowania oraz zakresy współrzędnych, jak też wszystkie inne parametry wynikające z przyjętego trybu rysowania. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_af8be8aeb3b1b524fab67d4411cba5b9e}\label{classPzG_1_1LaczeDoGNUPlota_af8be8aeb3b1b524fab67d4411cba5b9e}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Czy\+Polaczenie\+Jest\+Zainicjowane@{Czy\+Polaczenie\+Jest\+Zainicjowane}}
+\index{Czy\+Polaczenie\+Jest\+Zainicjowane@{Czy\+Polaczenie\+Jest\+Zainicjowane}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Czy\+Polaczenie\+Jest\+Zainicjowane()}{CzyPolaczenieJestZainicjowane()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Czy\+Polaczenie\+Jest\+Zainicjowane (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Informuje, czy połączenie z {\itshape gnuplot\textquotesingle{}em} jest zainicjalizowane. 
+
+Informuje, czy połączenie z programem {\itshape gnuplot} jest zainicjowane. 
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ jeśli tak, \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a5e4f3a226ed36f7110032d802d84847c}\label{classPzG_1_1LaczeDoGNUPlota_a5e4f3a226ed36f7110032d802d84847c}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Czy\+Wyswietlac\+Komunikaty@{Czy\+Wyswietlac\+Komunikaty}}
+\index{Czy\+Wyswietlac\+Komunikaty@{Czy\+Wyswietlac\+Komunikaty}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Czy\+Wyswietlac\+Komunikaty()}{CzyWyswietlacKomunikaty()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Czy\+Wyswietlac\+Komunikaty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Udostępnia informację czy mają być wyświetlane informacje o błędach. 
+
+Udostępnia wartość pola \hyperlink{classPzG_1_1LaczeDoGNUPlota_a2f2800f14ebfe1caef0b4d30c410a7fe}{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach}. Określa ono, czy mają być wyświetlane komunikaty o błędach na wyjście standardowe, czy też nie. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a34bd48f57c0fd69c12bf4127a1cacd8f}\label{classPzG_1_1LaczeDoGNUPlota_a34bd48f57c0fd69c12bf4127a1cacd8f}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Dodaj\+Nazwe\+Pliku@{Dodaj\+Nazwe\+Pliku}}
+\index{Dodaj\+Nazwe\+Pliku@{Dodaj\+Nazwe\+Pliku}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Dodaj\+Nazwe\+Pliku()}{DodajNazwePliku()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Dodaj\+Nazwe\+Pliku (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Nazwa\+Pliku,  }\item[{\hyperlink{namespacePzG_a705c92106f39b7d0c34a6739d10ff0b6}{Rodzaj\+Rysowania}}]{Rodz\+Rys = {\ttfamily \hyperlink{namespacePzG_a705c92106f39b7d0c34a6739d10ff0b6a927eaa159aa4bd3198f0a330b967746d}{R\+R\+\_\+\+Ciagly}},  }\item[{int}]{Szerokosc = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Dodaje nazwę pliku. 
+
+Powoduje dodanie do listy plików zawierajacych dane dla {\itshape gnuplota}, nowej nazwy pliku.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em Nazwa\+Pliku} & -\/ nazwa pliku z danymi dla gnuplota. \\
+\hline
+\mbox{\tt in}  & {\em Rodz\+Rys} & -\/ tryb rysowania danego zbioru punktow. Może być ciągły lub jako zbiór osobnych punktów. \\
+\hline
+\mbox{\tt in}  & {\em Szerokosc} & -\/ szerokość rysowanego obiektu. W przypadku punktów parametr ten jest połową szerokości kwadratu reprezentującego dany punkt.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ jeżeli istnieje plik o nazwie udostępnionej poprzez parametr {\itshape Nazwa\+Pliku} oraz jest zezwolenie na jego czytanie. Nazwa pliku zostaje dodana do listy plików z danymi dla {\itshape gnuplota}. \\
+\hline
+{\em false} & -\/ Jeżeli nie istnieje plik o nazwie przekazanej poprzez parametr {\itshape Nazwa\+Pliku}. Nazwa pliku zostaje dodana do listy plików z danymi dla {\itshape gnuplota}. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a25585ec3f1bd3b6bf42f374c38b8d237}\label{classPzG_1_1LaczeDoGNUPlota_a25585ec3f1bd3b6bf42f374c38b8d237}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Dopisz\+Pliki\+Do\+Polecenia\+Rysowania@{Dopisz\+Pliki\+Do\+Polecenia\+Rysowania}}
+\index{Dopisz\+Pliki\+Do\+Polecenia\+Rysowania@{Dopisz\+Pliki\+Do\+Polecenia\+Rysowania}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Dopisz\+Pliki\+Do\+Polecenia\+Rysowania()}{DopiszPlikiDoPoleceniaRysowania()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Dopisz\+Pliki\+Do\+Polecenia\+Rysowania (\begin{DoxyParamCaption}\item[{std\+::string \&}]{Polecenie,  }\item[{char const $\ast$$\ast$}]{Sep }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Tworzy listę parametrów umożliwiających rysowanie dodatkowych elementów. 
+
+Metoda ta przewidziana jest jako element rozszerzenia pozwalającego w klasach pochodnych powiększyć listę rysowanych elementów. \begin{DoxyPrecond}{Precondition}
+Parametr {\itshape Polecenie} powinien zawierać polecenie {\itshape plot} lub {\itshape splot}, do którego będzie możliwe dopisanie dalszego ciągu. 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em Polecenie} & -\/ polecenie rysowania, do którego mają być dopisane nazwy plików i odpowiednie parametry dla polecenia plot. \\
+\hline
+{\em Sep} & -\/ zawiera znak separatora między poszczególnymi parametrami. Jeżeli parametry listy przeszkód są generowane jako pierwsze, to zmienna ta musi być wskaźnikiem do wskaźnika na łańcuch\+: \char`\"{} \char`\"{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ad3d7607946b82aa941d786dcd086d27e}\label{classPzG_1_1LaczeDoGNUPlota_ad3d7607946b82aa941d786dcd086d27e}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Dopisz\+Rysowanie\+Z\+Plikow@{Dopisz\+Rysowanie\+Z\+Plikow}}
+\index{Dopisz\+Rysowanie\+Z\+Plikow@{Dopisz\+Rysowanie\+Z\+Plikow}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Dopisz\+Rysowanie\+Z\+Plikow()}{DopiszRysowanieZPlikow()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Dopisz\+Rysowanie\+Z\+Plikow (\begin{DoxyParamCaption}\item[{std\+::string \&}]{Polecenie,  }\item[{char const $\ast$$\ast$}]{Sep }\end{DoxyParamCaption})}
+
+
+
+Tworzy listę parametrów umożliwiających rysowanie brył z plików. 
+
+Tworzy napis będący parametrami dla polecenie {\itshape plot} programu, {\itshape gnuplot}. Parametry te pozwalają na rysowanie brył, których współrzędne wierzchołków zawarte są w plikach. Nazwy tych plików muszą być wcześniej dołączone do kolejki plików poprzez zastosowanie polecenia \hyperlink{}{Dodaj\+Nazwe}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Polecenie} & -\/ dopisywana jest do niego sekwencja znaków tworzących parametry dla polecenia {\itshape plot}. \\
+\hline
+{\em Sep} & -\/ zawiera znak separatora między poszczególnymi parametrami. Jeżeli parametry listy nazw plików są generowane jako pierwsze, to zmienna ta musi być wskaźnikiem do wskaźnika na łańcuch\+: \char`\"{} \char`\"{}. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ jeśli lista nazw plików nie jest pusta. \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\begin{DoxyPostcond}{Postcondition}
+Jeżeli lista nazw plików nie jest pusta, to poprzez parametr {\itshape Sep} zostaje udostępniony łańcuch\+: \char`\"{}, \char`\"{}. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a200ce6bdb980c314a9eafe49e8f2dd5e}\label{classPzG_1_1LaczeDoGNUPlota_a200ce6bdb980c314a9eafe49e8f2dd5e}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Inicjalizuj@{Inicjalizuj}}
+\index{Inicjalizuj@{Inicjalizuj}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Inicjalizuj()}{Inicjalizuj()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Inicjalizuj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inicjalizuje połączenie z programem {\itshape gnuplot}. 
+
+Inicjalizuje połączenie z programem {\itshape gnuplot}. Realizowane jest to poprzez rozwidlenie procesu i uruchomienie jako procesu potomnego programu {\itshape gnuplot}. Komunikacja z programem {\itshape gnuplot} realizowana jest poprzez przejęcie jego wejścia i wyjścia standardowego.
+
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy połączenie z programem {\itshape 0gnuplot} zostało poprawnie zainicjalizowane lub gdy już wcześniej było zainicjalizowane. \\
+\hline
+{\em false} & -\/ gdy proces inicjalizacji połączenia zakończył się niepowodzeniem. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a90056743aeaa546721528005f2cf41e6}\label{classPzG_1_1LaczeDoGNUPlota_a90056743aeaa546721528005f2cf41e6}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Komunikat\+Bledu@{Komunikat\+Bledu}}
+\index{Komunikat\+Bledu@{Komunikat\+Bledu}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Komunikat\+Bledu()}{KomunikatBledu()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Komunikat\+Bledu (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Komunikat }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wyświetla na wyjście \char`\"{}standard error\char`\"{} komunikat (przekazany jako parametr), o ile pole \hyperlink{classPzG_1_1LaczeDoGNUPlota_a2f2800f14ebfe1caef0b4d30c410a7fe}{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach} ma wartość {\ttfamily true}. W przypadku przeciwnym komunikat nie jest wyświetlany. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a11421d7c67deab6b7524cc492407e897}\label{classPzG_1_1LaczeDoGNUPlota_a11421d7c67deab6b7524cc492407e897}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OX@{Pokaz\+Os\+\_\+\+OX}}
+\index{Pokaz\+Os\+\_\+\+OX@{Pokaz\+Os\+\_\+\+OX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+X()}{PokazOs\_OX()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OX (\begin{DoxyParamCaption}\item[{bool}]{Pokaz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Umożliwia lub zabrania rysowania osi OX. 
+
+Umożliwia lub zabrania rysowania osi {\itshape OX} na rysunku wykresu. 
+\begin{DoxyParams}{Parameters}
+{\em Pokaz} & -\/ decyduje o tym czy oś {\itshape OX} będzie rysowana ({\ttfamily true}), czy też nie ({\ttfamily false}). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ae112972af57167c3b053bf922bce6bbf}\label{classPzG_1_1LaczeDoGNUPlota_ae112972af57167c3b053bf922bce6bbf}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OX@{Pokaz\+Os\+\_\+\+OX}}
+\index{Pokaz\+Os\+\_\+\+OX@{Pokaz\+Os\+\_\+\+OX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+X()}{PokazOs\_OX()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Czy oś OX ma być rysowana. 
+
+Udostępnia informację czy oś {\itshape OX} ma być rysowana, czy też nie. 
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy oś {\itshape OX} ma być rysowana, \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a7c3db909b266fc30808e86406c04b516}\label{classPzG_1_1LaczeDoGNUPlota_a7c3db909b266fc30808e86406c04b516}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OY@{Pokaz\+Os\+\_\+\+OY}}
+\index{Pokaz\+Os\+\_\+\+OY@{Pokaz\+Os\+\_\+\+OY}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+Y()}{PokazOs\_OY()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OY (\begin{DoxyParamCaption}\item[{bool}]{Pokaz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Umożliwia lub zabrania rysowania osi OY. 
+
+Umożliwia lub zabrania rysowania osi {\itshape OY} na rysunku wykresu. 
+\begin{DoxyParams}{Parameters}
+{\em Pokaz} & -\/ decyduje o tym czy oś {\itshape OY} będzie rysowana ({\ttfamily true}), czy też nie ({\ttfamily false}). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a7298f469f6932f5c808dcf620650b4b8}\label{classPzG_1_1LaczeDoGNUPlota_a7298f469f6932f5c808dcf620650b4b8}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OY@{Pokaz\+Os\+\_\+\+OY}}
+\index{Pokaz\+Os\+\_\+\+OY@{Pokaz\+Os\+\_\+\+OY}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+Y()}{PokazOs\_OY()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Czy oś OY ma być rysowana. 
+
+Udostępnia informację czy oś {\itshape OY} ma być rysowana, czy też nie. 
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy oś {\itshape OY} ma być rysowana, \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a9fabfe88cb1801a5de8923f45f514b99}\label{classPzG_1_1LaczeDoGNUPlota_a9fabfe88cb1801a5de8923f45f514b99}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OZ@{Pokaz\+Os\+\_\+\+OZ}}
+\index{Pokaz\+Os\+\_\+\+OZ@{Pokaz\+Os\+\_\+\+OZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+Z()}{PokazOs\_OZ()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OZ (\begin{DoxyParamCaption}\item[{bool}]{Pokaz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Umożliwia lub zabrania rysowania osi OZ. 
+
+Umożliwia lub zabrania rysowania osi {\itshape OZ} na rysunku wykresu. 
+\begin{DoxyParams}{Parameters}
+{\em Pokaz} & -\/ decyduje o tym czy oś {\itshape OZ} będzie rysowana ({\ttfamily true}), czy też nie ({\ttfamily false}). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a22c708af33c57bf3b5d1b4e82b4017b7}\label{classPzG_1_1LaczeDoGNUPlota_a22c708af33c57bf3b5d1b4e82b4017b7}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Pokaz\+Os\+\_\+\+OZ@{Pokaz\+Os\+\_\+\+OZ}}
+\index{Pokaz\+Os\+\_\+\+OZ@{Pokaz\+Os\+\_\+\+OZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Pokaz\+Os\+\_\+\+O\+Z()}{PokazOs\_OZ()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Pokaz\+Os\+\_\+\+OZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Czy oś OZ ma być rysowana. 
+
+Udostępnia informację czy oś {\itshape OZ} ma być rysowana, czy też nie. 
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy oś {\itshape OZ} ma być rysowana, \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a5063854b7232a7951d120a21df63f2b7}\label{classPzG_1_1LaczeDoGNUPlota_a5063854b7232a7951d120a21df63f2b7}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Przeslij\+Do\+G\+N\+U\+Plota@{Przeslij\+Do\+G\+N\+U\+Plota}}
+\index{Przeslij\+Do\+G\+N\+U\+Plota@{Przeslij\+Do\+G\+N\+U\+Plota}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Przeslij\+Do\+G\+N\+U\+Plota()}{PrzeslijDoGNUPlota()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Przeslij\+Do\+G\+N\+U\+Plota (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Polecenie }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Przesyła na wejście programu {\itshape gnuplot} zadany ciąg znaków. 
+\begin{DoxyParams}{Parameters}
+{\em Polecenie} & -\/ komunikat przeznaczony do przeslania.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Musi być zainicjowane połączenie z programem gnuplot.
+\end{DoxyPrecond}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ jesli przeslanie polecenia zakończyło się powodzeniem, \\
+\hline
+{\em false} & -\/ w przypadku przeciwnym. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_addf0b844f626f3f5220de70efcbbdbb3}\label{classPzG_1_1LaczeDoGNUPlota_addf0b844f626f3f5220de70efcbbdbb3}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!RotacjaX@{RotacjaX}}
+\index{RotacjaX@{RotacjaX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Rotacja\+X()}{RotacjaX()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+RotacjaX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia wartość kąta rotacji renderowanego rysunku wokół osi {\itshape OX}. Zwracana wartość wyrażona jest w stopiniach. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a9dac73754fab10644b287756003e9c79}\label{classPzG_1_1LaczeDoGNUPlota_a9dac73754fab10644b287756003e9c79}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!RotacjaZ@{RotacjaZ}}
+\index{RotacjaZ@{RotacjaZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Rotacja\+Z()}{RotacjaZ()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+RotacjaZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia wartość kąta rotacji renderowanego rysunku wokół osi {\itshape OZ}. Zwracana wartość wyrażona jest w stopiniach. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}\label{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Rysuj@{Rysuj}}
+\index{Rysuj@{Rysuj}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Rysuj()}{Rysuj()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Rysuj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Jeżeli lista plików nie jest pusta, to generuje sekwencje poleceń dla programu {\itshape gnuplot} mająca na celu narysowanie płaszczyzn na na podstawie danych zawartych w plikach z listy.
+
+\begin{DoxyPrecond}{Precondition}
+Lista plików nie powinna być pusta. Nazwy plików na niej można umieścić za pomoca metody \hyperlink{}{Dodaj\+Nazwe}. Metoda nie wymaga wcześniejszego zainicjowania połączenia z {\itshape gnuplotem}. 
+\end{DoxyPrecond}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy zostają poprawnie wysłane polecenia dla gnuplota. Nie oznacza to jednak, że proces rysowania zakończył się pomyślnie. \\
+\hline
+{\em false} & -\/ gdy połączenie z gnuplotem nie może zostać poprawnie zainicjalizowane lub gdy lista plików jest pusta. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_addae9ac156ae2fb227f792faff3aa148}\label{classPzG_1_1LaczeDoGNUPlota_addae9ac156ae2fb227f792faff3aa148}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Rysuj\+Do\+Pliku@{Rysuj\+Do\+Pliku}}
+\index{Rysuj\+Do\+Pliku@{Rysuj\+Do\+Pliku}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Rysuj\+Do\+Pliku()}{RysujDoPliku()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Rysuj\+Do\+Pliku (\begin{DoxyParamCaption}\item[{const char $\ast$}]{Nazwa\+Pliku }\end{DoxyParamCaption})}
+
+Działa analogicznie jak metoda \hyperlink{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}{Rysuj}, z tą różnicą, że rysunek robota składowany jest w pliku o nazwie przekazanej przez parametr {\itshape Nazwa\+Pliku}. Rysunek jest zapisywany w formacie {\itshape P\+NG}.
+
+\begin{DoxyPostcond}{Postcondition}
+Lista plików nie powinna być pusta ponadto powinno być możliwe otwarcie do zapisu pliku o nazwie przekazanej przez parametr {\itshape Nazwa\+Pliku}, do której dołączane jest rozszerzenie .ps . Metoda nie wymaga wcześniejszego zainicjowania połączenia z programem {\itshape gnuplot}.
+\end{DoxyPostcond}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy zostają poprawnie wysłane polecenia dla {\itshape gnuplota}. Nie oznacza to jednak, że proces rysowania zakończył się pomyślnie. \\
+\hline
+{\em false} & -\/ gdy połączenie z gnuplotem nie może zostać poprawnie zainicjalizowane lub gdy lista plików jest pusta lub też gdy nie można otworzyć pliku do zapisu. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a4b1eb252fd785a5aeff938e7b2dce2b1}\label{classPzG_1_1LaczeDoGNUPlota_a4b1eb252fd785a5aeff938e7b2dce2b1}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!SkalaX@{SkalaX}}
+\index{SkalaX@{SkalaX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Skala\+X()}{SkalaX()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+SkalaX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Udostępnia skalę dla osi {\itshape OX}. 
+
+Udostępnia skalę dla osi {\itshape OX} dla tworzonego rysunku. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a44f922ccbc508d6cd7809c669238dae3}\label{classPzG_1_1LaczeDoGNUPlota_a44f922ccbc508d6cd7809c669238dae3}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!SkalaZ@{SkalaZ}}
+\index{SkalaZ@{SkalaZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Skala\+Z()}{SkalaZ()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+SkalaZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Udostępnia skalę dla osi {\itshape OZ}. 
+
+Udostępnia skalę dla osi {\itshape OZ} dla tworzonego rysunku. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a88324c53a70846fb6bc9d918ce21fd56}\label{classPzG_1_1LaczeDoGNUPlota_a88324c53a70846fb6bc9d918ce21fd56}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+RotacjeX@{Ustaw\+RotacjeX}}
+\index{Ustaw\+RotacjeX@{Ustaw\+RotacjeX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Rotacje\+X()}{UstawRotacjeX()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+RotacjeX (\begin{DoxyParamCaption}\item[{float}]{kat\+\_\+x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia rotację wokół osi {\itshape OX}. 
+
+Zadaje kąt rotacji wokół osi {\itshape OX}. Umożliwia to zmianę punktu obserwacji renderowanego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em kat\+\_\+x} & -\/ wartość kąta rotacji. Jego wartość podawana jest w stopniach. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a94d8527fd78048ed6cb32ffb29e5f903}\label{classPzG_1_1LaczeDoGNUPlota_a94d8527fd78048ed6cb32ffb29e5f903}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+Rotacje\+XZ@{Ustaw\+Rotacje\+XZ}}
+\index{Ustaw\+Rotacje\+XZ@{Ustaw\+Rotacje\+XZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Rotacje\+X\+Z()}{UstawRotacjeXZ()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+Rotacje\+XZ (\begin{DoxyParamCaption}\item[{float}]{kat\+\_\+x,  }\item[{float}]{kat\+\_\+z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia rotację wokół osi {\itshape OX} i {\itshape OZ}. 
+
+Zadaje jednocześnie kąt rotacji wokół osi {\itshape OX} i {\itshape OZ}. Umożliwia to zmianę punktu obserwacji renderowanego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em kat\+\_\+x} & -\/ wartość kąta rotacji względem osi {\itshape OX}. Jego wartość podawana jest w stopniach. \\
+\hline
+{\em kat\+\_\+z} & -\/ wartość kąta rotacji względem osi {\itshape OZ}. Jego wartość podawana jest w stopniach. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a458399aa2a8f4b3f00ccd5b272857ea1}\label{classPzG_1_1LaczeDoGNUPlota_a458399aa2a8f4b3f00ccd5b272857ea1}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+RotacjeZ@{Ustaw\+RotacjeZ}}
+\index{Ustaw\+RotacjeZ@{Ustaw\+RotacjeZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Rotacje\+Z()}{UstawRotacjeZ()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+RotacjeZ (\begin{DoxyParamCaption}\item[{float}]{kat\+\_\+z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia rotację wokół osi {\itshape OZ}. 
+
+Zadaje kąt rotacji wokół osi {\itshape OZ}. Umożliwia to zmianę punktu obserwacji renderowanego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em kat\+\_\+z} & -\/ wartość kąta rotacji. Jego wartość podawana jest w stopniach. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a855b8338bfe3e5d294d719f24b11090e}\label{classPzG_1_1LaczeDoGNUPlota_a855b8338bfe3e5d294d719f24b11090e}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+SkaleX@{Ustaw\+SkaleX}}
+\index{Ustaw\+SkaleX@{Ustaw\+SkaleX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Skale\+X()}{UstawSkaleX()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+SkaleX (\begin{DoxyParamCaption}\item[{float}]{skala\+\_\+x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zadaje skalę wzdłuż osi {\itshape OZ}. 
+
+Zadaje skalę wzdłuż osi {\itshape OX} dla tworzonego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em skala\+\_\+x} & -\/ skala wzdłuż osi {\itshape OX}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a4308151b54e105d302803146a3238699}\label{classPzG_1_1LaczeDoGNUPlota_a4308151b54e105d302803146a3238699}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+Skale\+XZ@{Ustaw\+Skale\+XZ}}
+\index{Ustaw\+Skale\+XZ@{Ustaw\+Skale\+XZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Skale\+X\+Z()}{UstawSkaleXZ()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+Skale\+XZ (\begin{DoxyParamCaption}\item[{float}]{skala\+\_\+x,  }\item[{float}]{skala\+\_\+z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zadaje skalę wzdłuż osi {\itshape OX} i {\itshape OZ}. 
+
+Zadaje skalę wzdłuż osi {\itshape OX} i {\itshape OZ} dla tworzonego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em skala\+\_\+x} & -\/ skala wzdłuż osi {\itshape OX}. \\
+\hline
+{\em skala\+\_\+z} & -\/ skala wzdłuż osi {\itshape OZ}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ab0486db3166d8db6580a221079af241f}\label{classPzG_1_1LaczeDoGNUPlota_ab0486db3166d8db6580a221079af241f}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+SkaleZ@{Ustaw\+SkaleZ}}
+\index{Ustaw\+SkaleZ@{Ustaw\+SkaleZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Skale\+Z()}{UstawSkaleZ()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+SkaleZ (\begin{DoxyParamCaption}\item[{float}]{skala\+\_\+z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zadaje skalę wzdłuż osi {\itshape OZ}. 
+
+Zadaje skalę wzdłuż osi {\itshape OZ} dla tworzonego rysunku. 
+\begin{DoxyParams}{Parameters}
+{\em skala\+\_\+z} & -\/ skala wzdłuż osi {\itshape OZ}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a9c91987dfc869d6fcea96205c581daef}\label{classPzG_1_1LaczeDoGNUPlota_a9c91987dfc869d6fcea96205c581daef}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+ZakresX@{Ustaw\+ZakresX}}
+\index{Ustaw\+ZakresX@{Ustaw\+ZakresX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Zakres\+X()}{UstawZakresX()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+ZakresX (\begin{DoxyParamCaption}\item[{float}]{Xo,  }\item[{float}]{Xn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia zakres osi {\itshape OX}. 
+
+Ustawia zakres osi {\itshape OX}. Ogranicza to obszar, który będzie zwizualizowany przez programa {\itshape gnuplot}. 
+\begin{DoxyParams}{Parameters}
+{\em Xo} & -\/ dolna granica obszaru rysowania dla osi {\itshape OX}. \\
+\hline
+{\em Xn} & -\/ górna granica obszaru rysowania dla osi {\itshape OX}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a54c6e9cf9ab2eae479451fd953c2717c}\label{classPzG_1_1LaczeDoGNUPlota_a54c6e9cf9ab2eae479451fd953c2717c}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+ZakresY@{Ustaw\+ZakresY}}
+\index{Ustaw\+ZakresY@{Ustaw\+ZakresY}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Zakres\+Y()}{UstawZakresY()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+ZakresY (\begin{DoxyParamCaption}\item[{float}]{Yo,  }\item[{float}]{Yn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia zakres osi {\itshape OY}. 
+
+Ustawia zakres osi {\itshape OY}. Ogranicza to obszar, który będzie zwizualizowany przez programa {\itshape gnuplot}. 
+\begin{DoxyParams}{Parameters}
+{\em Yo} & -\/ dolna granica obszaru rysowania dla osi {\itshape OY}. \\
+\hline
+{\em Yn} & -\/ górna granica obszaru rysowania dla osi {\itshape OY}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a1dbbb2b86fb13b8632e6bad9df2a82e3}\label{classPzG_1_1LaczeDoGNUPlota_a1dbbb2b86fb13b8632e6bad9df2a82e3}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ustaw\+ZakresZ@{Ustaw\+ZakresZ}}
+\index{Ustaw\+ZakresZ@{Ustaw\+ZakresZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ustaw\+Zakres\+Z()}{UstawZakresZ()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ustaw\+ZakresZ (\begin{DoxyParamCaption}\item[{float}]{Zo,  }\item[{float}]{Zn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ustawia zakres osi {\itshape OZ}. 
+
+Ustawia zakres osi {\itshape OZ}. Ogranicza to obszar, który będzie zwizualizowany przez programa {\itshape gnuplot}. 
+\begin{DoxyParams}{Parameters}
+{\em Zo} & -\/ dolna granica obszaru rysowania dla osi {\itshape OZ}. \\
+\hline
+{\em Zn} & -\/ górna granica obszaru rysowania dla osi {\itshape OZ}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a75f599f17413ea8602c6dbba09f36407}\label{classPzG_1_1LaczeDoGNUPlota_a75f599f17413ea8602c6dbba09f36407}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Usun\+Ostatnia\+Nazwe@{Usun\+Ostatnia\+Nazwe}}
+\index{Usun\+Ostatnia\+Nazwe@{Usun\+Ostatnia\+Nazwe}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Usun\+Ostatnia\+Nazwe()}{UsunOstatniaNazwe()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Usun\+Ostatnia\+Nazwe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Usuwa ostatnią nazwę pliku. 
+
+Usuwa ostatnią nazwę z listy nazw plików. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a89a1d90d017d264cd26398464d074073}\label{classPzG_1_1LaczeDoGNUPlota_a89a1d90d017d264cd26398464d074073}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Usun\+Wszystkie\+Nazwy\+Plikow@{Usun\+Wszystkie\+Nazwy\+Plikow}}
+\index{Usun\+Wszystkie\+Nazwy\+Plikow@{Usun\+Wszystkie\+Nazwy\+Plikow}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Usun\+Wszystkie\+Nazwy\+Plikow()}{UsunWszystkieNazwyPlikow()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Usun\+Wszystkie\+Nazwy\+Plikow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kasuje zawartość listy nazw plików. 
+
+Calkowicie kasuje zawartość listy nazw plików. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a1c7b9acc40de8d8bbb40fb0722512933}\label{classPzG_1_1LaczeDoGNUPlota_a1c7b9acc40de8d8bbb40fb0722512933}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Utworz\+Proces\+Potomny@{Utworz\+Proces\+Potomny}}
+\index{Utworz\+Proces\+Potomny@{Utworz\+Proces\+Potomny}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Utworz\+Proces\+Potomny()}{UtworzProcesPotomny()}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Utworz\+Proces\+Potomny (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Uruchamia program {\itshape gnuplot} jako proces potomny. 
+
+Inicjalizuje połączenie z programem {\itshape gnuplot}. Realizowane jest to poprzez rozwidlenie procesu i uruchomienie jako procesu potomnego programu {\itshape gnuplot}. Komunikacja z programem {\itshape gnuplot} realizowana jest poprzez przejęcie jego wejścia i wyjścia standardowego.
+
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & -\/ gdy połączenie z programem {\itshape gnuplot} zostało poprawnie zainicjalizowane lub gdy już wcześniej było zainicjalizowane. \\
+\hline
+{\em false} & -\/ gdy proces inicjalizacji połączenia zakończył się niepowodzeniem. \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a7c417f27b4b112f58a5be3ce6ea8d1fe}\label{classPzG_1_1LaczeDoGNUPlota_a7c417f27b4b112f58a5be3ce6ea8d1fe}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Wez\+Tryb\+Rys@{Wez\+Tryb\+Rys}}
+\index{Wez\+Tryb\+Rys@{Wez\+Tryb\+Rys}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Wez\+Tryb\+Rys()}{WezTrybRys()}}
+{\footnotesize\ttfamily \hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania} Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Wez\+Tryb\+Rys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Udostępnia aktualny tryb rysowania. 
+
+Udostępnia informację o aktualnym trybie rysowania. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a4531e6d166faf2e2c8bb4a54a9c9e1f8}\label{classPzG_1_1LaczeDoGNUPlota_a4531e6d166faf2e2c8bb4a54a9c9e1f8}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Wyswietlaj\+Komunikaty\+Bledow@{Wyswietlaj\+Komunikaty\+Bledow}}
+\index{Wyswietlaj\+Komunikaty\+Bledow@{Wyswietlaj\+Komunikaty\+Bledow}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Wyswietlaj\+Komunikaty\+Bledow()}{WyswietlajKomunikatyBledow()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Wyswietlaj\+Komunikaty\+Bledow (\begin{DoxyParamCaption}\item[{bool}]{Tryb = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Zezwala lub zabrania wyświetlania komunikatów. 
+
+Metoda pozwala, albo też zabrania wyświetlania komunikatów o blędach. Jeżeli jakaś z operacji nie powiedzie się, to jako wynik zwracana jest wartość {\ttfamily false}. Oprócz tego metody takie moga wyświetlać komunikaty, które kierowane są na wyjście \char`\"{}standard error\char`\"{} Domyślnie przymuje się, że programista nie chce dodatkwego wyświetlania komunikatów. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a8e23479629af3df3d352b7839ae396b8}\label{classPzG_1_1LaczeDoGNUPlota_a8e23479629af3df3d352b7839ae396b8}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Xmax@{Xmax}}
+\index{Xmax@{Xmax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Xmax()}{Xmax()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Xmax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia górną wartość zakresu skali wzdłuż osi {\itshape OX}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a66836c9749bf179420e4ca3e9447efd7}\label{classPzG_1_1LaczeDoGNUPlota_a66836c9749bf179420e4ca3e9447efd7}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Xmin@{Xmin}}
+\index{Xmin@{Xmin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Xmin()}{Xmin()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Xmin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia dolną wartość zakresu skali wzdłuż osi {\itshape OX}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ac54e4e7448ce3bd324efdc94a999f535}\label{classPzG_1_1LaczeDoGNUPlota_ac54e4e7448ce3bd324efdc94a999f535}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ymax@{Ymax}}
+\index{Ymax@{Ymax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ymax()}{Ymax()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ymax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia górną wartość zakresu skali wzdłuż osi {\itshape OY}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a9352c0382bfaeaaba9f65399a7383164}\label{classPzG_1_1LaczeDoGNUPlota_a9352c0382bfaeaaba9f65399a7383164}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Ymin@{Ymin}}
+\index{Ymin@{Ymin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Ymin()}{Ymin()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Ymin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia dolną wartość zakresu skali wzdłuż osi {\itshape OY}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_aa92b463e8cbae31b50dd797a4183bce8}\label{classPzG_1_1LaczeDoGNUPlota_aa92b463e8cbae31b50dd797a4183bce8}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Zapisz\+Ustawienie\+Rotacji\+I\+Skali@{Zapisz\+Ustawienie\+Rotacji\+I\+Skali}}
+\index{Zapisz\+Ustawienie\+Rotacji\+I\+Skali@{Zapisz\+Ustawienie\+Rotacji\+I\+Skali}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Zapisz\+Ustawienie\+Rotacji\+I\+Skali()}{ZapiszUstawienieRotacjiISkali()}}
+{\footnotesize\ttfamily std\+::string Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Zapisz\+Ustawienie\+Rotacji\+I\+Skali (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tworzy polecenie ustawiające punkt obserwacji. 
+
+Tworzy polecenie dla programu {\itshape gnuplot} ustawiajające punkt obserwacji poprzez zadanie rotacji i skali dla poszczególnych osi. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a4579aecf7b4777fdde0cae4e98c275c2}\label{classPzG_1_1LaczeDoGNUPlota_a4579aecf7b4777fdde0cae4e98c275c2}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Zapisz\+Ustawienie\+Zakresu@{Zapisz\+Ustawienie\+Zakresu}}
+\index{Zapisz\+Ustawienie\+Zakresu@{Zapisz\+Ustawienie\+Zakresu}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Zapisz\+Ustawienie\+Zakresu()}{ZapiszUstawienieZakresu()}}
+{\footnotesize\ttfamily std\+::string Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Zapisz\+Ustawienie\+Zakresu (\begin{DoxyParamCaption}\item[{char}]{Os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Tworzy polecenie ustawiające zakres dla danej współrzędnej. 
+
+Tworzy polecenie dla programu {\itshape gnuplot} ustawiające zakres współrzędnych wybranej współrzędnej {\itshape x}, {\itshape y} lub {\itshape z}, dla której ma być tworzony dany rysunek. 
+\begin{DoxyParams}{Parameters}
+{\em Os} & -\/ zawiera znak określający współrzędną, dla której ma zostać wygenerowane polecenie ustawienia zakresu. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+łańcuch znaków polecenia ustawiającego żądany zakres dla wybranej współrzędnej. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a20a5d03e1fc19c682032bffc54340f12}\label{classPzG_1_1LaczeDoGNUPlota_a20a5d03e1fc19c682032bffc54340f12}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Zmax@{Zmax}}
+\index{Zmax@{Zmax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Zmax()}{Zmax()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Zmax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia górną wartość zakresu skali wzdłuż osi {\itshape OZ}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a10950349b348fd3a3d4143e95337527c}\label{classPzG_1_1LaczeDoGNUPlota_a10950349b348fd3a3d4143e95337527c}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Zmien\+Tryb\+Rys@{Zmien\+Tryb\+Rys}}
+\index{Zmien\+Tryb\+Rys@{Zmien\+Tryb\+Rys}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Zmien\+Tryb\+Rys()}{ZmienTrybRys()}}
+{\footnotesize\ttfamily void Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Zmien\+Tryb\+Rys (\begin{DoxyParamCaption}\item[{\hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania}}]{Tryb }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Zmienia tryb rysowania. 
+
+Zmienia tryb rysowania jaki zostanie wymuszony na programie {\ttfamily gnuplot}. 
+\begin{DoxyParams}{Parameters}
+{\em Tryb} & -\/ wartość parametru określa nowy tryb rysowania. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a9068bd9a9873ba9c6d70016f1ae7cd7f}\label{classPzG_1_1LaczeDoGNUPlota_a9068bd9a9873ba9c6d70016f1ae7cd7f}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!Zmin@{Zmin}}
+\index{Zmin@{Zmin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{Zmin()}{Zmin()}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+Zmin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Udostępnia dolną wartość zakresu skali wzdłuż osi {\itshape OZ}. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a1916c5a6fecfb3554e9d5204b2f2086c}\label{classPzG_1_1LaczeDoGNUPlota_a1916c5a6fecfb3554e9d5204b2f2086c}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Info\+Plikow@{\+\_\+\+Info\+Plikow}}
+\index{\+\_\+\+Info\+Plikow@{\+\_\+\+Info\+Plikow}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Info\+Plikow}{\_InfoPlikow}}
+{\footnotesize\ttfamily std\+::list$<$ \hyperlink{classPzG_1_1InfoPlikuDoRysowania}{Info\+Pliku\+Do\+Rysowania} $>$ Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Info\+Plikow\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Lista nazw plików z danymi dla {\itshape gnuplota}. 
+
+Pole jest zarządcą listy nazw plików, z których są wczytywane dane dotyczące rysowania obrysu brył przez program {\itshape gnuplot}. Operacja ta wykonywana jest po wywołaniu polecenia. \hyperlink{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}{Rysuj}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a833aa8994b9913786f920ec8c259731f}\label{classPzG_1_1LaczeDoGNUPlota_a833aa8994b9913786f920ec8c259731f}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Pokaz\+Os\+\_\+\+OX@{\+\_\+\+Pokaz\+Os\+\_\+\+OX}}
+\index{\+\_\+\+Pokaz\+Os\+\_\+\+OX@{\+\_\+\+Pokaz\+Os\+\_\+\+OX}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Pokaz\+Os\+\_\+\+OX}{\_PokazOs\_OX}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Pokaz\+Os\+\_\+\+OX\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Czy oś OX ma być widoczna. 
+
+Przechowuje informację decydującą o tym czy oś OX będzie widoczna na rysunku ({\ttfamily true}), czy też nie ({\ttfamily false}). \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ae8d9b4dac5eae6ce86b7043c45b70ed8}\label{classPzG_1_1LaczeDoGNUPlota_ae8d9b4dac5eae6ce86b7043c45b70ed8}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Pokaz\+Os\+\_\+\+OY@{\+\_\+\+Pokaz\+Os\+\_\+\+OY}}
+\index{\+\_\+\+Pokaz\+Os\+\_\+\+OY@{\+\_\+\+Pokaz\+Os\+\_\+\+OY}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Pokaz\+Os\+\_\+\+OY}{\_PokazOs\_OY}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Pokaz\+Os\+\_\+\+OY\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Czy oś OY ma być widoczna. 
+
+Przechowuje informację decydującą o tym czy oś OY będzie widoczna na rysunku ({\ttfamily true}), czy też nie ({\ttfamily false}). \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a5b0afc06dc248790d2e7475b2162e309}\label{classPzG_1_1LaczeDoGNUPlota_a5b0afc06dc248790d2e7475b2162e309}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Pokaz\+Os\+\_\+\+OZ@{\+\_\+\+Pokaz\+Os\+\_\+\+OZ}}
+\index{\+\_\+\+Pokaz\+Os\+\_\+\+OZ@{\+\_\+\+Pokaz\+Os\+\_\+\+OZ}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Pokaz\+Os\+\_\+\+OZ}{\_PokazOs\_OZ}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Pokaz\+Os\+\_\+\+OZ\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Czy oś OZ ma być widoczna. 
+
+Przechowuje informację decydującą o tym czy oś OZ będzie widoczna na rysunku ({\ttfamily true}), czy też nie ({\ttfamily false}). \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a00e3a51bb47d3fb26eee875dc48215db}\label{classPzG_1_1LaczeDoGNUPlota_a00e3a51bb47d3fb26eee875dc48215db}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Tryb\+Rys@{\+\_\+\+Tryb\+Rys}}
+\index{\+\_\+\+Tryb\+Rys@{\+\_\+\+Tryb\+Rys}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Tryb\+Rys}{\_TrybRys}}
+{\footnotesize\ttfamily \hyperlink{namespacePzG_aeedae1ef10c66d720f9e89de408ca4ca}{Tryb\+Rysowania} Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Tryb\+Rys\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Określa aktualny tryb rysowania. 
+
+Zawartość pola determinuje sposób rysowania, jaki zostanie wymuszony na programie {\ttfamily gnuplot} poprzez wysłanie do niego odpowiednich poleceń. Wspomniane wymuszenie jest realizowane poprzez wywołanie polecenia \hyperlink{classPzG_1_1LaczeDoGNUPlota_a065f5b8402737cc62b0ad4f66d028335}{Rysuj()} \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_adc3a2250216c2473a61da379da70b2d7}\label{classPzG_1_1LaczeDoGNUPlota_adc3a2250216c2473a61da379da70b2d7}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota@{\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota}}
+\index{\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota@{\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota}{\_Wejscie\_GNUPlota}}
+{\footnotesize\ttfamily int Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Wejscie\+\_\+\+G\+N\+U\+Plota\hspace{0.3cm}{\ttfamily [protected]}}
+
+Pole przechowuje deskryptor do wejścia standardowego uruchomionego programu gnuplot. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a7d05a4767a35ee494d59724bb740dbc2}\label{classPzG_1_1LaczeDoGNUPlota_a7d05a4767a35ee494d59724bb740dbc2}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota@{\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota}}
+\index{\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota@{\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota}{\_Wyjscie\_GNUPlota}}
+{\footnotesize\ttfamily int Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Wyjscie\+\_\+\+G\+N\+U\+Plota\hspace{0.3cm}{\ttfamily [protected]}}
+
+Pole przechowuje deskryptor do weyjścia standardowego uruchomionego programu gnuplot. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a2f2800f14ebfe1caef0b4d30c410a7fe}\label{classPzG_1_1LaczeDoGNUPlota_a2f2800f14ebfe1caef0b4d30c410a7fe}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach@{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach}}
+\index{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach@{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach}{\_WyswietlajKomunikatyOBledach}}
+{\footnotesize\ttfamily bool Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Wyswietlaj\+Komunikaty\+O\+Bledach\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Decyduje czy mają być wyświetlane komunikaty o błędach, czy też nie. 
+
+Wartość tego pola decyduje o tym czy komunikaty o błędach będą wyświetlane na wyjście standardowe błędów ({\bfseries cerr}), czy też nie. \begin{DoxyItemize}
+\item {\ttfamily true} -\/ komunikaty będę wyświetlane, \item {\ttfamily false} -\/ komunikaty nie będę wyświetlane. \end{DoxyItemize}
+\mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a847e00678a413ab076ccbcb7eba3ae58}\label{classPzG_1_1LaczeDoGNUPlota_a847e00678a413ab076ccbcb7eba3ae58}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Xmax@{\+\_\+\+Xmax}}
+\index{\+\_\+\+Xmax@{\+\_\+\+Xmax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Xmax}{\_Xmax}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Xmax\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Górny zakres wyświetlanej skali skali dla osi {\itshape OX}. 
+
+Określa górny zakres wyświetlanej skali dla osi {\itshape OX}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a69d530edfe769e38448972e897456deb}\label{classPzG_1_1LaczeDoGNUPlota_a69d530edfe769e38448972e897456deb}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Xmin@{\+\_\+\+Xmin}}
+\index{\+\_\+\+Xmin@{\+\_\+\+Xmin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Xmin}{\_Xmin}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Xmin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dolny zakres wyświetlanej skali skali dla osi {\itshape OX}. 
+
+Określa dolny zakres wyświetlanej skali dla osi {\itshape OX}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a21e77f0a2bfb7fed989b6dc2d64b5a7e}\label{classPzG_1_1LaczeDoGNUPlota_a21e77f0a2bfb7fed989b6dc2d64b5a7e}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Xrotacja@{\+\_\+\+Xrotacja}}
+\index{\+\_\+\+Xrotacja@{\+\_\+\+Xrotacja}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Xrotacja}{\_Xrotacja}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Xrotacja\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wartość tego pola definiuje rotację rysunku (zmiane punktu patrzenia) względem osi {\itshape OX}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a2c9303c4dbb4c9f0ddc4f1fe02eb3f70}\label{classPzG_1_1LaczeDoGNUPlota_a2c9303c4dbb4c9f0ddc4f1fe02eb3f70}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Xskala@{\+\_\+\+Xskala}}
+\index{\+\_\+\+Xskala@{\+\_\+\+Xskala}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Xskala}{\_Xskala}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Xskala\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wartość tego pola definiuje skalowanie rysunku wzdłuż osi {\itshape OX} (oś horyzontalna ekranu). \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_ad7dfd3fad82ea0720ec89eacc18410bf}\label{classPzG_1_1LaczeDoGNUPlota_ad7dfd3fad82ea0720ec89eacc18410bf}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Ymax@{\+\_\+\+Ymax}}
+\index{\+\_\+\+Ymax@{\+\_\+\+Ymax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Ymax}{\_Ymax}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Ymax\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Górny zakres wyświetlanej skali skali dla osi {\itshape OY}. 
+
+Określa górny zakres wyświetlanej skali dla osi {\itshape OY}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_abc555fd6b82b0d5c9efb4802b58dc317}\label{classPzG_1_1LaczeDoGNUPlota_abc555fd6b82b0d5c9efb4802b58dc317}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Ymin@{\+\_\+\+Ymin}}
+\index{\+\_\+\+Ymin@{\+\_\+\+Ymin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Ymin}{\_Ymin}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Ymin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dolny zakres wyświetlanej skali skali dla osi {\itshape OY}. 
+
+Określa dolny zakres wyświetlanej skali dla osi {\itshape OY}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a26949eedd421832f0f206ce3c8f90694}\label{classPzG_1_1LaczeDoGNUPlota_a26949eedd421832f0f206ce3c8f90694}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Zmax@{\+\_\+\+Zmax}}
+\index{\+\_\+\+Zmax@{\+\_\+\+Zmax}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Zmax}{\_Zmax}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Zmax\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Górny zakres wyświetlanej skali skali dla osi {\itshape OZ}. 
+
+Określa górny zakres wyświetlanej skali dla osi {\itshape OZ}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a8f9797e881df35f4206cb7d8030e5edc}\label{classPzG_1_1LaczeDoGNUPlota_a8f9797e881df35f4206cb7d8030e5edc}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Zmin@{\+\_\+\+Zmin}}
+\index{\+\_\+\+Zmin@{\+\_\+\+Zmin}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Zmin}{\_Zmin}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Zmin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Dolny zakres wyświetlanej skali skali dla osi {\itshape OZ}. 
+
+Określa dolny zakres wyświetlanej skali dla osi {\itshape OZ}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_aa65781b1ff96dfb31a780e98ee28d6ed}\label{classPzG_1_1LaczeDoGNUPlota_aa65781b1ff96dfb31a780e98ee28d6ed}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Zrotacja@{\+\_\+\+Zrotacja}}
+\index{\+\_\+\+Zrotacja@{\+\_\+\+Zrotacja}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Zrotacja}{\_Zrotacja}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Zrotacja\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wartość tego pola definiuje rotację rysunku (zmiane punktu patrzenia) względem osi {\itshape OZ}. \mbox{\Hypertarget{classPzG_1_1LaczeDoGNUPlota_a85446d06b2d714b2f852ef43c47c73c1}\label{classPzG_1_1LaczeDoGNUPlota_a85446d06b2d714b2f852ef43c47c73c1}} 
+\index{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}!\+\_\+\+Zskala@{\+\_\+\+Zskala}}
+\index{\+\_\+\+Zskala@{\+\_\+\+Zskala}!Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota@{Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota}}
+\subsubsection{\texorpdfstring{\+\_\+\+Zskala}{\_Zskala}}
+{\footnotesize\ttfamily float Pz\+G\+::\+Lacze\+Do\+G\+N\+U\+Plota\+::\+\_\+\+Zskala\hspace{0.3cm}{\ttfamily [protected]}}
+
+Wartość tego pola definiuje skalowanie rysunku wzdłuż osi {\itshape OZ} (oś wertykalna ekranu). 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lacze__do__gnuplota_8h}{lacze\+\_\+do\+\_\+gnuplota.\+h}\item 
+\hyperlink{lacze__do__gnuplota_8cpp}{lacze\+\_\+do\+\_\+gnuplota.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['robot',['Robot',['../md_README.html',1,'']]],
+  ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
+  ['removelastvertex',['RemoveLastVertex',['../classVerticesCollection.html#ad0c22e7014760ba1cf5c15230657fa81',1,'VerticesCollection']]],
+  ['removevertices',['RemoveVertices',['../classVerticesCollection.html#a92a341f41b621dad57b7ab74265f1a14',1,'VerticesCollection']]],
+  ['render',['Render',['../classScene.html#a91913b921d41d374e00eac347358dc14',1,'Scene']]],
+  ['rendermove',['RenderMove',['../classScene.html#a4c4182f461b3874840a721b3e9828eae',1,'Scene']]],
+  ['renderrotate',['RenderRotate',['../classScene.html#a849cf1c78718f18d5ae36c7ca7a38562',1,'Scene']]],
+  ['robot',['Robot',['../classRobot.html',1,'Robot'],['../classRobot.html#ad228181e400915ecb155fbe904d828ab',1,'Robot::Robot()']]],
+  ['robot_2ecpp',['Robot.cpp',['../Robot_8cpp.html',1,'']]],
+  ['robot_2edox',['Robot.dox',['../Robot_8dox.html',1,'']]],
+  ['robot_2eh',['Robot.h',['../Robot_8h.html',1,'']]],
+  ['robots',['robots',['../classScene.html#a914e69601e8711bb5b9a06c243854f88',1,'Scene']]],
+  ['rodzajrysowania',['RodzajRysowania',['../namespacePzG.html#a705c92106f39b7d0c34a6739d10ff0b6',1,'PzG']]],
+  ['rotacjax',['RotacjaX',['../classPzG_1_1LaczeDoGNUPlota.html#addf0b844f626f3f5220de70efcbbdbb3',1,'PzG::LaczeDoGNUPlota']]],
+  ['rotacjaz',['RotacjaZ',['../classPzG_1_1LaczeDoGNUPlota.html#a9dac73754fab10644b287756003e9c79',1,'PzG::LaczeDoGNUPlota']]],
+  ['rotate',['Rotate',['../classRobot.html#a1cb405ec49d47c46f3aa87fde1415b59',1,'Robot']]],
+  ['roz_5flinii',['ROZ_LINII',['../lacze__do__gnuplota_8cpp.html#a2b501945c8d86114fcf6420cc1ee6306',1,'lacze_do_gnuplota.cpp']]],
+  ['rr_5fciagly',['RR_Ciagly',['../namespacePzG.html#a705c92106f39b7d0c34a6739d10ff0b6a927eaa159aa4bd3198f0a330b967746d',1,'PzG']]],
+  ['rr_5fpunktowy',['RR_Punktowy',['../namespacePzG.html#a705c92106f39b7d0c34a6739d10ff0b6aa01097ee8266d6402b752ef6f9a4690c',1,'PzG']]],
+  ['rvelocity',['RVELOCITY',['../Consts_8h.html#a25bf7747f2f9e574a6ee6660faede421',1,'Consts.h']]],
+  ['rysuj',['Rysuj',['../classPzG_1_1LaczeDoGNUPlota.html#a065f5b8402737cc62b0ad4f66d028335',1,'PzG::LaczeDoGNUPlota']]],
+  ['rysujdopliku',['RysujDoPliku',['../classPzG_1_1LaczeDoGNUPlota.html#addae9ac156ae2fb227f792faff3aa148',1,'PzG::LaczeDoGNUPlota']]]
+];

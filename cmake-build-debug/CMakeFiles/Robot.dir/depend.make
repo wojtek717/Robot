@@ -41,7 +41,6 @@ CMakeFiles/Robot.dir/VerticesCollection.cpp.o: ../VerticesCollection.h
 CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o: ../lacze_do_gnuplota.cpp
 CMakeFiles/Robot.dir/lacze_do_gnuplota.cpp.o: ../lacze_do_gnuplota.h
 
-CMakeFiles/Robot.dir/main.cpp.o: ../Consts.h
 CMakeFiles/Robot.dir/main.cpp.o: ../GraphicObject.h
 CMakeFiles/Robot.dir/main.cpp.o: ../Path.h
 CMakeFiles/Robot.dir/main.cpp.o: ../Robot.h

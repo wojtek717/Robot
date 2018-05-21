@@ -27,8 +27,8 @@ void Robot::Move(double distance)
     double a;
     double b;
 
-    a = cos(GetOrientationAngleRad());
-    b = sin(GetOrientationAngleRad());
+    a = cos(GetOrientationAngleRad()) * distance;
+    b = sin(GetOrientationAngleRad()) * distance;
 
     SetLocation(
             GetLocation()[0] + a,

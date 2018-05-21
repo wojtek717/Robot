@@ -32,13 +32,21 @@ void Scene::RenderMove(double distance)
         {
             robots.front().GetPath().RemoveLastVertex();
         }
-        robots.front().Move(1);
+
+        if (distance > 0)
+        {
+            robots.front().Move(1);
+        } else
+        {
+            robots.front().Move(-1);
+        }
+
         Lacze.Rysuj();
 
         usleep(2000);
 
         i++;
-    }while (i < distance);
+    }while (i < abs(distance));
 }
 
 void Scene::RenderRotate(double angle)
@@ -46,13 +54,20 @@ void Scene::RenderRotate(double angle)
     int i = 0;
     do
     {
-        robots.front().Rotate(1);
+        if(angle > 0)
+        {
+            robots.front().Rotate(1);
+        } else
+        {
+            robots.front().Rotate(-1);
+        }
+
         Lacze.Rysuj();
 
         usleep(2000);
 
         i++;
-    }while (i < angle);
+    }while (i < abs(angle));
 }
 
 void Scene::Menu()

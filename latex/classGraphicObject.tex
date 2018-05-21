@@ -1,0 +1,155 @@
+\hypertarget{classGraphicObject}{}\section{Graphic\+Object Class Reference}
+\label{classGraphicObject}\index{Graphic\+Object@{Graphic\+Object}}
+
+
+{\ttfamily \#include $<$Graphic\+Object.\+h$>$}
+
+
+
+Inheritance diagram for Graphic\+Object\+:
+% FIG 0
+
+
+Collaboration diagram for Graphic\+Object\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGraphicObject_ae1b56ae4484ad120f5ba77c0b683a045}{Graphic\+Object} ()
+\item 
+void \hyperlink{classGraphicObject_a8dc588d1a3bd20ba79a9da1d651ec454}{Set\+Location} (double x, double y)
+\item 
+\hyperlink{Vector2D_8h_a2a0274942d24318d2654bd0f75c54fb7}{Vector2D} \hyperlink{classGraphicObject_adc2f473f234cedd0a512a4e1c41e3fa4}{Get\+Location} ()
+\item 
+void \hyperlink{classGraphicObject_a19bc9ba1759660382867ff151501f5a0}{Set\+Orientation\+Angle} (double angle)
+\item 
+double \hyperlink{classGraphicObject_a1f78c24074e454b60ed986a29722c1ff}{Get\+Orientation\+Angle\+Rad} ()
+\item 
+void \hyperlink{classGraphicObject_a0dfb2d11fad4237edb8653fd6df609e9}{Set\+File\+Name} (std\+::string fname)
+\item 
+const char $\ast$ \hyperlink{classGraphicObject_affe1401070f67eebcd2c6ba61ff8a275}{Get\+File\+Name} ()
+\item 
+bool \hyperlink{classGraphicObject_a2c68d0e1ae71d0d866455fa39f3d60ce}{Save\+To\+File} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Vector2D_8h_a2a0274942d24318d2654bd0f75c54fb7}{Vector2D} \hyperlink{classGraphicObject_a7739828cef90b4ab696b72a3ce28d280}{location}
+\item 
+double \hyperlink{classGraphicObject_a474fc4d1f4a67b9550ba85f454068659}{orientation\+Angle}
+\item 
+std\+::string \hyperlink{classGraphicObject_a72b2f9c3519e13279bd59f564fea7aa0}{file\+Name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class fully represents graphic object in program. \hyperlink{classGraphicObject}{Graphic\+Object} inherit from \hyperlink{classVerticesCollection}{Vertices\+Collection} 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGraphicObject_ae1b56ae4484ad120f5ba77c0b683a045}\label{classGraphicObject_ae1b56ae4484ad120f5ba77c0b683a045}} 
+\index{Graphic\+Object@{Graphic\+Object}!Graphic\+Object@{Graphic\+Object}}
+\index{Graphic\+Object@{Graphic\+Object}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Graphic\+Object()}{GraphicObject()}}
+{\footnotesize\ttfamily Graphic\+Object\+::\+Graphic\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor for \hyperlink{classGraphicObject}{Graphic\+Object} 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classGraphicObject_affe1401070f67eebcd2c6ba61ff8a275}\label{classGraphicObject_affe1401070f67eebcd2c6ba61ff8a275}} 
+\index{Graphic\+Object@{Graphic\+Object}!Get\+File\+Name@{Get\+File\+Name}}
+\index{Get\+File\+Name@{Get\+File\+Name}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Get\+File\+Name()}{GetFileName()}}
+{\footnotesize\ttfamily const char $\ast$ Graphic\+Object\+::\+Get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+File name for graphic object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphicObject_adc2f473f234cedd0a512a4e1c41e3fa4}\label{classGraphicObject_adc2f473f234cedd0a512a4e1c41e3fa4}} 
+\index{Graphic\+Object@{Graphic\+Object}!Get\+Location@{Get\+Location}}
+\index{Get\+Location@{Get\+Location}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Get\+Location()}{GetLocation()}}
+{\footnotesize\ttfamily \hyperlink{Vector2D_8h_a2a0274942d24318d2654bd0f75c54fb7}{Vector2D} Graphic\+Object\+::\+Get\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Current location of object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphicObject_a1f78c24074e454b60ed986a29722c1ff}\label{classGraphicObject_a1f78c24074e454b60ed986a29722c1ff}} 
+\index{Graphic\+Object@{Graphic\+Object}!Get\+Orientation\+Angle\+Rad@{Get\+Orientation\+Angle\+Rad}}
+\index{Get\+Orientation\+Angle\+Rad@{Get\+Orientation\+Angle\+Rad}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Get\+Orientation\+Angle\+Rad()}{GetOrientationAngleRad()}}
+{\footnotesize\ttfamily double Graphic\+Object\+::\+Get\+Orientation\+Angle\+Rad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Current rotation of object expressed in radians 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphicObject_a2c68d0e1ae71d0d866455fa39f3d60ce}\label{classGraphicObject_a2c68d0e1ae71d0d866455fa39f3d60ce}} 
+\index{Graphic\+Object@{Graphic\+Object}!Save\+To\+File@{Save\+To\+File}}
+\index{Save\+To\+File@{Save\+To\+File}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Save\+To\+File()}{SaveToFile()}}
+{\footnotesize\ttfamily bool Graphic\+Object\+::\+Save\+To\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves vertices to file \begin{DoxyReturn}{Returns}
+Is file successfully saved? 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGraphicObject_a0dfb2d11fad4237edb8653fd6df609e9}\label{classGraphicObject_a0dfb2d11fad4237edb8653fd6df609e9}} 
+\index{Graphic\+Object@{Graphic\+Object}!Set\+File\+Name@{Set\+File\+Name}}
+\index{Set\+File\+Name@{Set\+File\+Name}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Set\+File\+Name()}{SetFileName()}}
+{\footnotesize\ttfamily void Graphic\+Object\+::\+Set\+File\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{fname }\end{DoxyParamCaption})}
+
+Sets file name with vertices for graphic object 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em fname} & file name \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraphicObject_a8dc588d1a3bd20ba79a9da1d651ec454}\label{classGraphicObject_a8dc588d1a3bd20ba79a9da1d651ec454}} 
+\index{Graphic\+Object@{Graphic\+Object}!Set\+Location@{Set\+Location}}
+\index{Set\+Location@{Set\+Location}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Set\+Location()}{SetLocation()}}
+{\footnotesize\ttfamily void Graphic\+Object\+::\+Set\+Location (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+Sets new location for object 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x} & coordinate x \\
+\hline
+\mbox{\tt in}  & {\em y} & coordinate y \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGraphicObject_a19bc9ba1759660382867ff151501f5a0}\label{classGraphicObject_a19bc9ba1759660382867ff151501f5a0}} 
+\index{Graphic\+Object@{Graphic\+Object}!Set\+Orientation\+Angle@{Set\+Orientation\+Angle}}
+\index{Set\+Orientation\+Angle@{Set\+Orientation\+Angle}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{Set\+Orientation\+Angle()}{SetOrientationAngle()}}
+{\footnotesize\ttfamily void Graphic\+Object\+::\+Set\+Orientation\+Angle (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})}
+
+Sets new rotation of object of object in degrees 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em angle} & rotation angle expressed in degrees \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classGraphicObject_a72b2f9c3519e13279bd59f564fea7aa0}\label{classGraphicObject_a72b2f9c3519e13279bd59f564fea7aa0}} 
+\index{Graphic\+Object@{Graphic\+Object}!file\+Name@{file\+Name}}
+\index{file\+Name@{file\+Name}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{file\+Name}{fileName}}
+{\footnotesize\ttfamily std\+::string Graphic\+Object\+::file\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+File name where vertices are save to \mbox{\Hypertarget{classGraphicObject_a7739828cef90b4ab696b72a3ce28d280}\label{classGraphicObject_a7739828cef90b4ab696b72a3ce28d280}} 
+\index{Graphic\+Object@{Graphic\+Object}!location@{location}}
+\index{location@{location}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{location}{location}}
+{\footnotesize\ttfamily \hyperlink{Vector2D_8h_a2a0274942d24318d2654bd0f75c54fb7}{Vector2D} Graphic\+Object\+::location\hspace{0.3cm}{\ttfamily [private]}}
+
+Current position of object \mbox{\Hypertarget{classGraphicObject_a474fc4d1f4a67b9550ba85f454068659}\label{classGraphicObject_a474fc4d1f4a67b9550ba85f454068659}} 
+\index{Graphic\+Object@{Graphic\+Object}!orientation\+Angle@{orientation\+Angle}}
+\index{orientation\+Angle@{orientation\+Angle}!Graphic\+Object@{Graphic\+Object}}
+\subsubsection{\texorpdfstring{orientation\+Angle}{orientationAngle}}
+{\footnotesize\ttfamily double Graphic\+Object\+::orientation\+Angle\hspace{0.3cm}{\ttfamily [private]}}
+
+Current rotation of object expressed in degrees 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{GraphicObject_8h}{Graphic\+Object.\+h}\item 
+\hyperlink{GraphicObject_8cpp}{Graphic\+Object.\+cpp}\end{DoxyCompactItemize}

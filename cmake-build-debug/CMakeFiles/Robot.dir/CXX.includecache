@@ -129,24 +129,6 @@ vector
 -
 
 /home/wojciech/CLionProjects/Robot/main.cpp
-iostream
--
-iomanip
--
-fstream
--
-unistd.h
--
-lacze_do_gnuplota.h
-/home/wojciech/CLionProjects/Robot/lacze_do_gnuplota.h
-GraphicObject.h
-/home/wojciech/CLionProjects/Robot/GraphicObject.h
-Robot.h
-/home/wojciech/CLionProjects/Robot/Robot.h
-Path.h
-/home/wojciech/CLionProjects/Robot/Path.h
-Consts.h
-/home/wojciech/CLionProjects/Robot/Consts.h
 Scene.h
 /home/wojciech/CLionProjects/Robot/Scene.h
 
