@@ -63,6 +63,10 @@ iostream
 /home/wojciech/CLionProjects/Robot/Scene.cpp
 unistd.h
 -
+string
+-
+sstream
+-
 Scene.h
 /home/wojciech/CLionProjects/Robot/Scene.h
 lacze_do_gnuplota.h

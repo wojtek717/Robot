@@ -8,12 +8,12 @@
 #include "Robot.h"
 #include "Consts.h"
 
-Robot::Robot(std::string rfile, std::string pfile)
+Robot::Robot(std::string rfile, std::string pfile, Vector2D position)
 {
     SetFileName(rfile);
     path.SetFileName(pfile);
 
-    SetLocation(0, 0);
+    SetLocation(position);
     SetOrientationAngle(0);
 
     path.AddVertex(GetLocation());

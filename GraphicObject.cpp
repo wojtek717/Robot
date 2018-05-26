@@ -19,6 +19,13 @@ void GraphicObject::SetLocation(double x, double y)
     location[1] = y;
 }
 
+
+void GraphicObject::SetLocation(Vector2D loc)
+{
+    location = loc;
+}
+
+
 Vector2D GraphicObject::GetLocation()
 {
     return location;

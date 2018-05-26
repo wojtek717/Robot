@@ -35,6 +35,8 @@ public:
      * @param[in] y coordinate y */
     void SetLocation(double x, double y);
 
+    void SetLocation(Vector2D loc);
+
     /*! @return Current location of object */
     Vector2D GetLocation();
 

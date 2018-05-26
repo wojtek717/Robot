@@ -22,7 +22,7 @@ public:
     /*! Constructor for Robot
      * @param[in] rfile file where Robot's vertices are save to
      * @param[in] pfile file where path's vertices are save to*/
-    Robot(std::string rfile, std::string pfile);
+    Robot(std::string rfile, std::string pfile, Vector2D position);
 
     /*! Moves robot by a given distance
      * @param[in] distance distance to move*/

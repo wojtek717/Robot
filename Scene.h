@@ -17,6 +17,8 @@
 class Scene
 {
 private:
+    int amountOfRobots;
+
     /*! List of Robot objects */
     std::list<Robot> robots;
 
@@ -26,11 +28,11 @@ private:
 public:
     /*! Render and animate move
      * @param[in] distance distance to move*/
-    void RenderMove(double distance);
+    void RenderMove(double distance, unsigned R);
 
     /*! Render and animate rotate
      * @param[in] angle angle to rotate expressed in degrees */
-    void RenderRotate(double angle);
+    void RenderRotate(double angle, unsigned R);
 
     /*! Prints menu */
     void Menu();
