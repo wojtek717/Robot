@@ -34,6 +34,10 @@ void Robot::Move(double distance)
             GetLocation()[0] + a,
             GetLocation()[1] + b
     );
+
+    path.AddVertex(GetLocation());
+    path.SetLocation(GetLocation()[0], GetLocation()[1]);
+
 }
 
 void Robot::Check(const std::list<Robot> &robots)
@@ -51,9 +55,6 @@ void Robot::Check(const std::list<Robot> &robots)
 
 void Robot::Render()
 {
-  path.AddVertex(GetLocation());
-  path.SetLocation(GetLocation()[0], GetLocation()[1]);
-
   DrawVertices();
   path.SaveToFile();
 }
