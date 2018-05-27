@@ -13,6 +13,7 @@
 #include <vector>
 #include <list>
 #include <fstream>
+#include <string>
 
 class Scene
 {
@@ -38,10 +39,12 @@ public:
     void Menu();
 
     /*! Render objects using GNUPlot and menu */
-    void Render();
+    void Render();;
 
+    void RemoveFiles(std::string fname);
+
+    bool CheckColision();
 
 };
-
 
 #endif //ROBOT_SCENE_H

@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <string>
 #include <sstream>
+#include <cmath>
 #include "Scene.h"
 #include "lacze_do_gnuplota.h"
 
@@ -22,8 +23,8 @@ void Scene::Render()
 
     for (int i = 0; i < amountOfRobots; ++i)
     {
-        position[0] = 100 * i;
-        position[1] = 100 * i;
+        position[0] = 200 * i;
+        position[1] = 200 * i;
 
         oss << "rv" << i << ".dat";
         rfile = oss.str();
@@ -53,6 +54,7 @@ void Scene::Render()
 void Scene::RenderMove(double distance, unsigned R)
 {
     int i = 0;
+    Vector2D v;
 
     std::list<Robot>::iterator robot = robots.begin();
     std::advance(robot, R);
@@ -119,7 +121,7 @@ void Scene::Menu()
     int choice;
     int input;
 
-    unsigned R;
+    unsigned R = 0;
 
     do
     {
@@ -161,29 +163,13 @@ void Scene::Menu()
                     }
                 }while (robots.size() < R);
 
-
                 break;
 
             case 9:
                 cout << "Bye" << endl;
 
-                for (int i = 0; i < amountOfRobots; ++i)
-                {
-                    std::string file;
-                    std::ostringstream oss;
-
-                    oss << "rv" << i << ".dat";
-                    file = oss.str();
-                    remove(file.c_str());
-                    oss.str("");
-                    oss.clear();
-
-                    oss << "pathv" << i << ".dat";
-                    file = oss.str();
-                    remove(file.c_str());
-                    oss.str("");
-                    oss.clear();
-                }
+                RemoveFiles("rv");
+                RemoveFiles("pathv");
                 break;
 
             default:
@@ -191,4 +177,24 @@ void Scene::Menu()
         }
     }while (choice != 9 );
 
+}
+
+void Scene::RemoveFiles(std::string fname)
+{
+    for (int i = 0; i < amountOfRobots; ++i)
+    {
+        std::string file;
+        std::ostringstream oss;
+
+        oss << fname << i << ".dat";
+        file = oss.str();
+        remove(file.c_str());
+        oss.str("");
+        oss.clear();
+    }
+}
+
+bool Scene::CheckColision()
+{
+    return false;
 }
