@@ -14,5 +14,4 @@ typedef SVector<double,2>  Vector2D;
 
 
 
-
 #endif //ROBOT_VECTOR2D_H
