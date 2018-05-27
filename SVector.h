@@ -81,7 +81,7 @@ STyp SVector<STyp, SWymiar>::Distance(const SVector<STyp, SWymiar> &vec) {
     STyp sum = 0;
 
     for (int i = 0; i < SWymiar; ++i) {
-        sum += _Wsp[i] * _Wsp[i];
+        sum += (_Wsp[i] - vec._Wsp[i]) * (_Wsp[i] - vec._Wsp[i]);
     }
 
     return sqrt(sum);

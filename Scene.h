@@ -39,7 +39,7 @@ public:
     void Menu();
 
     /*! Render objects using GNUPlot and menu */
-    void Render();;
+    void Render();
 
     void RemoveFiles(std::string fname);
 
