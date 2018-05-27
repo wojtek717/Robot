@@ -8,6 +8,9 @@
 #include <string>
 #include "GraphicObject.h"
 #include "Path.h"
+#include <list>
+
+#define Radius (50 * sqrt(2))
 
 class Robot : public GraphicObject
 {
@@ -27,6 +30,8 @@ public:
     /*! Moves robot by a given distance
      * @param[in] distance distance to move*/
     void Move(double distance);
+    void Render();
+    void Check(const std::list<Robot> &robots);
 
     /*! Rotates robot by a given angle expressed in degrees
      * @param[in] angle rotation angle expressed in degrees*/

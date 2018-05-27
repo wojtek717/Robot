@@ -1,3 +1,0 @@
-/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wojciech/CLionProjects/Robot/cmake-build-debug/CMakeFiles/Robot.dir

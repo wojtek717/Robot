@@ -72,6 +72,15 @@ void Scene::RenderMove(double distance, unsigned R)
             robot->Move(-1);
         }
 
+        try {
+            robot->Check(robots);
+        } catch (char const *err) {
+            cout << "Błąd: " << err << std::endl;
+            return;
+        }
+
+        robot->Render();
+
         Lacze.Rysuj();
 
         usleep(2000);

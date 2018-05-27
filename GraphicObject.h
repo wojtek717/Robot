@@ -15,7 +15,7 @@
  *  GraphicObject inherit from VerticesCollection */
 class GraphicObject : public VerticesCollection
 {
-private:
+protected:
 
     /*! Current position of object */
     Vector2D location;

@@ -34,13 +34,28 @@ void Robot::Move(double distance)
             GetLocation()[0] + a,
             GetLocation()[1] + b
     );
+}
 
-    path.AddVertex(GetLocation());
-    path.SetLocation(GetLocation()[0], GetLocation()[1]);
+void Robot::Check(const std::list<Robot> &robots)
+{
+    for (const auto &robot : robots) {
+        if (&robot == this) {
+            continue;
+        }
 
-    DrawVertices();
-    path.SaveToFile();
+        if (location.Distance(robot.location) <= 2 * Radius) {
+            throw "Kolizja";
+        }
+    }
+}
 
+void Robot::Render()
+{
+  path.AddVertex(GetLocation());
+  path.SetLocation(GetLocation()[0], GetLocation()[1]);
+
+  DrawVertices();
+  path.SaveToFile();
 }
 
 void Robot::Rotate(double angle)

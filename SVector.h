@@ -29,6 +29,8 @@ public:
         _Wsp[1] = y;
     }
 
+    STyp Distance(const SVector<STyp, SWymiar> &vec);
+
     STyp  operator [] (unsigned int Ind) const
     {
         return _Wsp[Ind];
@@ -72,6 +74,17 @@ SVector<STyp,SWymiar> SVector<STyp,SWymiar>::operator * (double Mnoznik) const
 
     for (unsigned int Ind = 0; Ind < SWymiar; ++Ind) Wynik[Ind] = (*this)[Ind]*Mnoznik;
     return Wynik;
+}
+
+template<typename STyp, int SWymiar>
+STyp SVector<STyp, SWymiar>::Distance(const SVector<STyp, SWymiar> &vec) {
+    STyp sum = 0;
+
+    for (int i = 0; i < SWymiar; ++i) {
+        sum += _Wsp[i] * _Wsp[i];
+    }
+
+    return sqrt(sum);
 }
 
 template <typename STyp, int SWymiar>
