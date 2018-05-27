@@ -22,8 +22,8 @@ void Scene::Render()
 
     for (int i = 0; i < amountOfRobots; ++i)
     {
-        position[0] = 100 * i;
-        position[1] = 100 * i;
+        position[0] = 200 * i;
+        position[1] = 200 * i;
 
         oss << "rv" << i << ".dat";
         rfile = oss.str();
