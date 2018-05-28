@@ -7,6 +7,7 @@
 #include <iostream>
 #include "Robot.h"
 #include "Consts.h"
+#include "Obstacle.h"
 
 Robot::Robot(std::string rfile, std::string pfile, Vector2D position)
 {
@@ -40,7 +41,7 @@ void Robot::Move(double distance)
 
 }
 
-void Robot::Check(const std::list<Robot> &robots)
+void Robot::Check(const std::list<Robot> &robots, const std::list<Obstacle> &obstacles)
 {
     for (const auto &robot : robots) {
         if (&robot == this) {
@@ -48,7 +49,18 @@ void Robot::Check(const std::list<Robot> &robots)
         }
 
         if (location.Distance(robot.location) <= 2 * Radius) {
-            throw "Kolizja";
+            throw "Kolizja z innym robotem";
+        }
+    }
+
+    for (const auto &obstacle : obstacles) {
+        Vector2D obsLoc = obstacle.GetLocation();
+
+        if (
+            (abs(location[0] - obsLoc[0]) <= OBSTACLEX + Radius) &&
+            (abs(location[1] - obsLoc[2]) <= OBSTACLEY + Radius)
+            ) {
+            throw "Kolizja z przeszkodą";
         }
     }
 }

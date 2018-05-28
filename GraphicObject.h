@@ -38,7 +38,7 @@ public:
     void SetLocation(Vector2D loc);
 
     /*! @return Current location of object */
-    Vector2D GetLocation();
+    Vector2D GetLocation() const;
 
     /*! Sets new rotation of object of object in degrees
      * @param[in] angle rotation angle expressed in degrees */

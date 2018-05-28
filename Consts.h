@@ -5,6 +5,8 @@
 #ifndef ROBOT_CONSTS_H
 #define ROBOT_CONSTS_H
 
-#define OBSTACLEX  30
+#define OBSTACLEX ((double) 30)
+#define OBSTACLEY ((double) 30)
+#define Radius ((double) (50 * sqrt(2)))
 
 #endif //ROBOT_CONSTS_H

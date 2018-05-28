@@ -96,7 +96,7 @@ void Scene::RenderMove(double distance, unsigned R)
         }
 
         try {
-            robot->Check(robots);
+            robot->Check(robots, obstacles);
         } catch (char const *err) {
             cout << "Błąd: " << err << std::endl;
             return;

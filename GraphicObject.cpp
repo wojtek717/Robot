@@ -26,7 +26,7 @@ void GraphicObject::SetLocation(Vector2D loc)
 }
 
 
-Vector2D GraphicObject::GetLocation()
+Vector2D GraphicObject::GetLocation() const
 {
     return location;
 }

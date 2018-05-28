@@ -29,7 +29,7 @@ public:
         _Wsp[1] = y;
     }
 
-    STyp Distance(const SVector<STyp, SWymiar> &vec);
+    STyp Distance(const SVector<STyp, SWymiar> &vec) const;
 
     STyp  operator [] (unsigned int Ind) const
     {
@@ -77,7 +77,7 @@ SVector<STyp,SWymiar> SVector<STyp,SWymiar>::operator * (double Mnoznik) const
 }
 
 template<typename STyp, int SWymiar>
-STyp SVector<STyp, SWymiar>::Distance(const SVector<STyp, SWymiar> &vec) {
+STyp SVector<STyp, SWymiar>::Distance(const SVector<STyp, SWymiar> &vec) const {
     STyp sum = 0;
 
     for (int i = 0; i < SWymiar; ++i) {
