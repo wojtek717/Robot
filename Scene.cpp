@@ -141,6 +141,7 @@ void Scene::Menu()
 {
     int choice;
     int input;
+    int k = 0;
 
     unsigned R = 0;
 
@@ -175,6 +176,15 @@ void Scene::Menu()
             case 3:
                 do
                 {
+                    k = 0;
+
+                    for(Robot r : robots)
+                    {
+                        cout << "Robot " << k << ": " << endl;
+                        cout << "Position: " << r.GetLocation() << endl << endl;
+
+                        k++;
+                    }
                     cout << "What robot? " << endl;
                     cin >> R;
 
