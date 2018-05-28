@@ -39,10 +39,31 @@ void Scene::Render()
         robots.emplace_back(rfile, pfile, position);
     }
 
+    cout << "How many obstacles do you want?" << endl;
+    cin >> amountOfObstacles;
+
+    for (int j = 0; j < amountOfObstacles; ++j)
+    {
+        position[0] = -100 - 100 * j;
+        position[1] = -100 - 100 * j;
+
+        oss << "obstaclev" << j << ".dat";
+        rfile = oss.str();
+        oss.str("");
+        oss.clear();
+
+        obstacles.emplace_back(rfile, position);
+    }
+
     for(Robot r : robots)
     {
         Lacze.DodajNazwePliku(r.GetFileName(),PzG::RR_Ciagly,2);
         Lacze.DodajNazwePliku(r.GetPath().GetFileName(),PzG::RR_Ciagly,5);
+    }
+
+    for(Obstacle o : obstacles)
+    {
+        Lacze.DodajNazwePliku(o.GetFileName(),PzG::RR_Ciagly,2);
     }
 
     Lacze.ZmienTrybRys(PzG::TR_2D);
@@ -168,8 +189,9 @@ void Scene::Menu()
             case 9:
                 cout << "Bye" << endl;
 
-                RemoveFiles("rv");
-                RemoveFiles("pathv");
+                RemoveFiles("rv", amountOfRobots);
+                RemoveFiles("pathv", amountOfRobots);
+                RemoveFiles("obstaclev", amountOfObstacles);
                 break;
 
             default:
@@ -179,9 +201,9 @@ void Scene::Menu()
 
 }
 
-void Scene::RemoveFiles(std::string fname)
+void Scene::RemoveFiles(std::string fname, int amount)
 {
-    for (int i = 0; i < amountOfRobots; ++i)
+    for (int i = 0; i < amount; ++i)
     {
         std::string file;
         std::ostringstream oss;

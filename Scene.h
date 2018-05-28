@@ -8,6 +8,7 @@
 
 #include "Robot.h"
 #include "lacze_do_gnuplota.h"
+#include "Obstacle.h"
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -19,9 +20,12 @@ class Scene
 {
 private:
     int amountOfRobots;
+    int amountOfObstacles;
 
     /*! List of Robot objects */
     std::list<Robot> robots;
+
+    std::list<Obstacle> obstacles;
 
     /*! Lacze which is use to render objects by GNUPlot */
     PzG::LaczeDoGNUPlota Lacze;
@@ -41,7 +45,7 @@ public:
     /*! Render objects using GNUPlot and menu */
     void Render();
 
-    void RemoveFiles(std::string fname);
+    void RemoveFiles(std::string fname, int amount);
 
     bool CheckColision();
 
