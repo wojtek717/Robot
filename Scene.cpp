@@ -44,8 +44,8 @@ void Scene::Render()
 
     for (int j = 0; j < amountOfObstacles; ++j)
     {
-        position[0] = -100 - 100 * j;
-        position[1] = -100 - 100 * j;
+        position[0] = -150 - 150 * j;
+        position[1] = -150 - 150 * j;
 
         oss << "obstaclev" << j << ".dat";
         rfile = oss.str();

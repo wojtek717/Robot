@@ -43,24 +43,37 @@ void Robot::Move(double distance)
 
 void Robot::Check(const std::list<Robot> &robots, const std::list<Obstacle> &obstacles)
 {
-    for (const auto &robot : robots) {
-        if (&robot == this) {
+    double tmp;
+
+    for (const auto &robot : robots)
+    {
+        if (&robot == this)
+        {
             continue;
         }
 
-        if (location.Distance(robot.location) <= 2 * Radius) {
+        if (location.Distance(robot.location) <= 2 * Radius)
+        {
             throw "Kolizja z innym robotem";
         }
     }
 
-    for (const auto &obstacle : obstacles) {
+    for (const auto &obstacle : obstacles)
+    {
         Vector2D obsLoc = obstacle.GetLocation();
 
-        if (
-            (abs(location[0] - obsLoc[0]) <= OBSTACLEX + Radius) &&
-            (abs(location[1] - obsLoc[2]) <= OBSTACLEY + Radius)
-            ) {
-            throw "Kolizja z przeszkodą";
+        tmp = sqrt((location[0] - obsLoc[0]) * (location[0] - obsLoc[0]));
+        std::cout << tmp << "-x-" << (OBSTACLEX + Radius) << std::endl;
+
+        tmp = sqrt((location[1] - obsLoc[1]) * (location[1] - obsLoc[1]));
+        std::cout << tmp << "-y-" << (OBSTACLEY + Radius) << std::endl;
+
+        if(sqrt((location[0] - obsLoc[0]) * (location[0] - obsLoc[0])) <= OBSTACLEX + Radius)
+        {
+            if (sqrt((location[1] - obsLoc[1]) * (location[1] - obsLoc[1])) <= OBSTACLEY + Radius)
+            {
+                throw "Kolizja z przeszkodą";
+            }
         }
     }
 }
